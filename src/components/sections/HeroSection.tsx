@@ -24,16 +24,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
   return (
     <section id="home" className="relative min-h-[92vh] flex items-center pt-32 pb-16 overflow-hidden bg-slate-100">
-      {/* Background Building Image with Higher Opacity */}
+      {/* Background Responsive Building Image (Portrait on Mobile, Widescreen on PC) */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <img
-          src="/alpha-facility.jpg"
-          alt="Alpha Healthcare Solutions Building"
-          className="w-full h-full object-cover object-center opacity-55 scale-105"
-        />
-        {/* Soft natural ambient overlays for enhanced text contrast without white blocks */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/70 to-slate-50/30" />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-100/30 via-transparent to-slate-100/90" />
+        <picture className="w-full h-full block">
+          <source media="(min-width: 768px)" srcSet="/alpha-facility-desktop.jpg" />
+          <img
+            src="/alpha-facility-mobile.jpg"
+            alt="Alpha Healthcare Solutions Headquarters - Thana, Kannur"
+            className="w-full h-full object-cover object-[center_15%] md:object-[80%_center] lg:object-[85%_center] xl:object-[right_center] opacity-75 sm:opacity-85 transition-all duration-700"
+          />
+        </picture>
+        {/* Soft natural ambient overlays for enhanced text contrast across all devices */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-50/95 via-slate-50/85 to-slate-50/40 sm:from-slate-50/90 sm:via-slate-50/60 sm:to-transparent lg:from-slate-50/95 lg:via-slate-50/65 lg:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-100/40 via-transparent to-slate-100/90" />
       </div>
 
       {/* Background Subtle Medical Grid */}

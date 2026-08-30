@@ -175,12 +175,15 @@ export const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#ebf2f8] text-slate-900 flex flex-col selection:bg-brand-blue-500 selection:text-white font-sans antialiased relative">
       {/* Ambient Low-Opacity Landing Page Background Watermark */}
-      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden opacity-[0.04]">
-        <img
-          src="/alpha-building.jpg"
-          alt=""
-          className="w-full h-full object-cover object-center filter blur-[1px]"
-        />
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden opacity-[0.035]">
+        <picture className="w-full h-full block">
+          <source media="(min-width: 768px)" srcSet="/alpha-building-desktop.jpg" />
+          <img
+            src="/alpha-building-mobile.jpg"
+            alt=""
+            className="w-full h-full object-cover object-[center_20%] md:object-[80%_center] filter blur-[1px]"
+          />
+        </picture>
       </div>
 
       {/* Sticky Fixed Header */}

@@ -176,13 +176,20 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                 </div>
 
                 <div className="lg:col-span-5">
-                  <div className="rounded-2xl overflow-hidden shadow-clinical border border-slate-200 h-56 sm:h-72 w-full relative">
+                  <div className="rounded-2xl overflow-hidden shadow-clinical border border-slate-200 h-64 sm:h-80 w-full relative group">
                     <img
                       src="/alpha-building.jpg"
-                      alt="Alpha Healthcare Solutions Operations Headquarters"
-                      className="w-full h-full object-cover"
+                      alt="Alpha Healthcare Solutions Operations Headquarters - Thana, Kannur"
+                      className="w-full h-full object-cover object-[center_20%] group-hover:scale-103 transition-transform duration-500"
                     />
-                    
+                    <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/80 via-slate-950/40 to-transparent p-4 text-left">
+                      <p className="text-xs font-bold text-white tracking-wide">
+                        Alpha Healthcare Solutions Headquarters
+                      </p>
+                      <p className="text-[11px] text-sky-200 font-medium">
+                        Thana, Kannur - Kerala, India
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
