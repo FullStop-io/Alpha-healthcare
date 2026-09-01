@@ -6,7 +6,6 @@ import { DepartmentMedicalEmblem } from '../ui/DepartmentMedicalEmblem';
 import { 
   Search, 
   Layers, 
-  Building2, 
   ArrowRight,
   X
 } from 'lucide-react';
@@ -150,16 +149,7 @@ export const ProductsSection: React.FC<ProductsSectionProps> = ({
         {/* 17 DEPARTMENT CARDS WITH WATERMARK EMBLEM IN BACKGROUND */}
         {/* ------------------------------------------------------------- */}
         <div>
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-2 border-b border-sky-200/50">
-            <div className="inline-flex items-center gap-2.5">
-              <div className="w-7 h-7 rounded-xl bg-sky-100/90 text-brand-blue-600 flex items-center justify-center border border-sky-200/70 shadow-2xs flex-shrink-0">
-                <Building2 className="w-3.5 h-3.5" />
-              </div>
-              <span className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-brand-navy-950">
-                Clinical Departments & Specialties
-              </span>
-            </div>
-
+          <div className="flex flex-col sm:flex-row sm:items-center justify-end gap-3 mb-6 pb-2 border-b border-sky-200/50">
             <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-sky-200/80 shadow-2xs self-start sm:self-auto">
               <span className="text-[11px] font-medium text-slate-500">
                 Showing <strong className="text-brand-navy-950 font-bold">{filteredDepartments.length}</strong> of <strong className="text-brand-navy-950 font-bold">{clinicalDepartments.length}</strong> Departments
