@@ -214,7 +214,10 @@ export const Footer: React.FC<FooterProps> = ({
                   <MapPin className="w-3.5 h-3.5" />
                 </div>
                 <span className="leading-relaxed text-slate-300">
-                  Alpha Healthcare Solutions, Thana, Kannur - 670012, Kerala, India
+                  Alpha Healthcare Solutions<br />
+                  Delta Tower, 2nd Floor<br />
+                  Thana, Kannur – 670012<br />
+                  Kerala, India
                 </span>
               </div>
               <div className="flex items-center gap-2.5">

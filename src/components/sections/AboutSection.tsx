@@ -46,11 +46,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           </Badge>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy-950 tracking-tight leading-[1.15]">
-            About <span className="text-brand-blue-600">Alpha Healthcare</span>
+            About <span className="text-brand-blue-600">Alpha Healthcare Solutions</span>
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 font-medium leading-relaxed">
-            Alpha Healthcare Solutions is a global medical trading and consultancy company. We specialize in supplying high-quality medical instruments, surgical supplies, and diagnostic equipment to hospitals, clinics, and healthcare providers worldwide.
+            Alpha healthcare solutions is global healthcare trading and consultancy company committed to advancing medical standards through innovation, precision, and integrity. We specialize in the import, export, and distribution of high quality medical instruments, surgical supplies, and diagnostic equipment, serving hospitals, clinics, and distributors around the world.
           </p>
         </div>
 
@@ -61,10 +61,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <Globe2 className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-brand-navy-900">
-              Global Import & Export
+              Import, Export & Distribution
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Specialized international distribution of hospital-grade medical instruments, diagnostic systems, and surgical equipment across worldwide healthcare networks.
+              We specialize in the import, export, and distribution of high quality medical instruments, surgical supplies, and diagnostic equipment, serving hospitals, clinics, and distributors around the world.
             </p>
           </SpotlightCard>
 
@@ -73,10 +73,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <Microscope className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-brand-navy-900">
-              Cutting-Edge Portfolio
+              State of the Art Portfolio
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              State-of-the-art medical, laboratory, diagnostic, critical care, radiology & imaging equipment from trusted global manufacturers.
+              Our diverse portfolio includes advance state of art cutting-edge medical , laboratory , diagnostic , critical care, radiology & imaging equipment to support healthcare professionals in delivering better patient outcomes.
             </p>
           </SpotlightCard>
 
@@ -88,7 +88,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               Hospital Turnkey Consultancy
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Complete guidance on regulatory compliance, product registrations, market access strategies, and technical department planning.
+              In addition to equipment trading, we provide hospital turnkey consultancy services, helping partners navigate complex regulatory requirements, product registrations, and market access strategies.
             </p>
           </SpotlightCard>
 
@@ -97,10 +97,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <ShieldCheck className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-brand-navy-900">
-              Trusted Partnerships
+              Reliable & Trusted Partners
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Long-term customer relationships built on transparency, quality assurance, timely delivery, and professional lifecycle support.
+              Alpha healthcare solutions dedicated to delivering reliable & trusted partners to our valuable customer for their utmost satisfaction, built on trust, transparency, and mutual growth.
             </p>
           </SpotlightCard>
         </div>
@@ -119,7 +119,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               }`}
             >
               <Stethoscope className="w-4 h-4 text-brand-blue-600 flex-shrink-0" />
-              <span>Medical Equipment & Trading</span>
+              <span>Equipment Trading & Portfolio</span>
             </button>
 
             <button
@@ -132,7 +132,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               }`}
             >
               <FileCheck2 className="w-4 h-4 text-brand-blue-600 flex-shrink-0" />
-              <span>Turnkey Hospital Consultancy</span>
+              <span>Hospital Turnkey Consultancy</span>
             </button>
 
             <button
@@ -145,7 +145,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               }`}
             >
               <Award className="w-4 h-4 text-brand-blue-600 flex-shrink-0" />
-              <span>Quality, Compliance & Support</span>
+              <span>Partnership & Satisfaction</span>
             </button>
           </div>
 
@@ -155,39 +155,44 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7 space-y-4 text-left">
                   <span className="text-xs font-bold uppercase tracking-widest text-brand-blue-600">
-                    Import, Export & Global Distribution
+                    Import, Export & Distribution
                   </span>
                   <h3 className="text-2xl font-bold text-brand-navy-900">
-                    Delivering Quality Products from Leading Manufacturers
+                    Delivering Quality Products from Leading Trusted Manufacturers
                   </h3>
                   <p className="text-sm text-slate-700 leading-relaxed">
                     Guided by a passion for excellence, we work closely with leading trusted manufacturers to deliver quality products that meet the highest standards of safety, performance, and reliability.
                   </p>
                   <p className="text-sm text-slate-700 leading-relaxed">
-                    Our diverse portfolio includes state-of-the-art medical, laboratory, diagnostic, critical care, radiology & imaging equipment to support healthcare professionals in delivering better patient outcomes.
+                    Our diverse portfolio includes advance state of art cutting-edge medical , laboratory , diagnostic , critical care, radiology & imaging equipment to support healthcare professionals in delivering better patient outcomes.
                   </p>
 
                   <div className="pt-2 flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Medical</span>
+                    <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Laboratory</span>
+                    <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Diagnostic</span>
                     <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Critical Care</span>
                     <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Radiology & Imaging</span>
-                    <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Laboratory Equipment</span>
                     <span className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-semibold text-slate-800">Surgical Supplies</span>
                   </div>
                 </div>
 
                 <div className="lg:col-span-5">
                   <div className="rounded-2xl overflow-hidden shadow-clinical border border-slate-200 h-64 sm:h-80 w-full relative group">
-                    <img
-                      src="/alpha-building.jpg"
-                      alt="Alpha Healthcare Solutions Operations Headquarters - Thana, Kannur"
-                      className="w-full h-full object-cover object-[center_20%] group-hover:scale-103 transition-transform duration-500"
-                    />
+                    <picture className="w-full h-full block">
+                      <source media="(min-width: 640px)" srcSet="/alpha-facility-desktop.jpg" />
+                      <img
+                        src="/alpha-facility-mobile.jpg"
+                        alt="Alpha Healthcare Solutions Operations Headquarters - Thana, Kannur"
+                        className="w-full h-full object-cover object-[center_30%] sm:object-center group-hover:scale-103 transition-transform duration-500"
+                      />
+                    </picture>
                     <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/80 via-slate-950/40 to-transparent p-4 text-left">
                       <p className="text-xs font-bold text-white tracking-wide">
                         Alpha Healthcare Solutions Headquarters
                       </p>
                       <p className="text-[11px] text-sky-200 font-medium">
-                        Thana, Kannur - Kerala, India
+                        Delta Tower, 2nd Floor, Thana, Kannur – Kerala
                       </p>
                     </div>
                   </div>
@@ -198,10 +203,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
             {activeTab === 'consultancy' && (
               <div className="max-w-4xl mx-auto space-y-4 text-left">
                 <span className="text-xs font-bold uppercase tracking-widest text-brand-blue-600">
-                  Regulatory & Market Access Strategies
+                  Hospital Turnkey Consultancy Services
                 </span>
                 <h3 className="text-2xl font-bold text-brand-navy-900">
-                  Hospital Turnkey Consultancy & International Compliance
+                  Regulatory Requirements, Product Registrations & Market Access Strategies
                 </h3>
                 <p className="text-sm text-slate-700 leading-relaxed">
                   In addition to equipment trading, we provide hospital turnkey consultancy services, helping partners navigate complex regulatory requirements, product registrations, and market access strategies.
@@ -213,15 +218,15 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
                   <div className="flex items-center gap-3 text-xs text-slate-800 font-semibold bg-slate-50 p-3 rounded-xl border border-slate-200">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Product Registrations & Approvals</span>
+                    <span>Regulatory Requirements</span>
                   </div>
                   <div className="flex items-center gap-3 text-xs text-slate-800 font-semibold bg-slate-50 p-3 rounded-xl border border-slate-200">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Turnkey Equipment Specification</span>
+                    <span>Product Registrations</span>
                   </div>
                   <div className="flex items-center gap-3 text-xs text-slate-800 font-semibold bg-slate-50 p-3 rounded-xl border border-slate-200">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Global Distribution Strategy</span>
+                    <span>Market Access Strategies</span>
                   </div>
                 </div>
               </div>
@@ -231,25 +236,28 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7 space-y-4 text-left">
                   <span className="text-xs font-bold uppercase tracking-widest text-brand-blue-600">
-                    Long-Term Customer Satisfaction
+                    Partnership & Customer Satisfaction
                   </span>
                   <h3 className="text-2xl font-bold text-brand-navy-900">
                     Connecting Technology, Precision, and Care to Create a Healthier World
                   </h3>
                   <p className="text-sm text-slate-700 leading-relaxed">
-                    Alpha Healthcare Solutions is dedicated to delivering reliable & trusted partners to our valuable customers for their utmost satisfaction. We believe in long-term partnerships built on trust, transparency, and mutual growth.
+                    Alpha healthcare solutions dedicated to delivering reliable & trusted partners to our valuable customer for their utmost satisfaction. We believe in long-term partnerships built on trust, transparency, and mutual growth.
                   </p>
                   <p className="text-sm text-slate-700 leading-relaxed">
-                    Every project we undertake reflects our unwavering focus on quality, timely delivery, and professional support. With a strong commitment to innovation and healthcare advancement, Alpha Healthcare Solutions continues to be a trusted name in the medical supply and consultancy industry.
+                    Every project we undertake reflects our unwavering focus on quality, timely delivery, and professional support.
+                  </p>
+                  <p className="text-sm text-slate-700 leading-relaxed">
+                    With a strong commitment to innovation and healthcare advancement, Alpha Healthcare solutions continues to be a trusted name in the medical supply and consultancy industry — connecting technology, precision, and care to create a healthier world.
                   </p>
                 </div>
 
                 <div className="lg:col-span-5">
                   <div className="p-6 bg-brand-blue-50/80 rounded-2xl border border-brand-blue-200 text-left space-y-3">
-                    <span className="text-xs font-mono font-bold text-brand-blue-600 uppercase">Core Quality Commitment</span>
-                    <h4 className="text-lg font-bold text-brand-navy-950">Trust, Transparency & Mutual Growth</h4>
+                    <span className="text-xs font-mono font-bold text-brand-blue-600 uppercase">Our Commitment</span>
+                    <h4 className="text-lg font-bold text-brand-navy-950">Quality, Timely Delivery & Professional Support</h4>
                     <p className="text-xs text-slate-600 leading-relaxed">
-                      Connecting state-of-the-art medical technology with rigorous technical support to empower healthcare professionals worldwide.
+                      Every project we undertake reflects our unwavering focus on quality, timely delivery, and professional support.
                     </p>
                   </div>
                 </div>

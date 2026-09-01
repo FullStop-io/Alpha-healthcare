@@ -165,7 +165,9 @@ export const ContactSection: React.FC<ContactSectionProps> = () => {
                     Company Address
                   </p>
                   <p className="text-brand-navy-950 text-xs sm:text-sm font-semibold leading-relaxed mt-0.5">
-                    Alpha Healthcare Solutions, Thana, Kannur - 670012, Kerala, India
+                    Alpha Healthcare Solutions<br />
+                    Delta Tower, 2nd Floor, Thana<br />
+                    Kannur – 670012, Kerala, India
                   </p>
                 </div>
               </div>
