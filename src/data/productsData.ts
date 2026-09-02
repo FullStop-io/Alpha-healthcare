@@ -145,21 +145,6 @@ export const CATEGORIES: DepartmentCategory[] = [
     ]
   },
   {
-    id: 'refurbished',
-    name: 'Refurbished Equipment',
-    shortName: 'Refurbished',
-    iconName: 'Sparkles',
-    image: '/Departments/radiology.jpg',
-    description: 'OEM-certified, fully recalibrated hospital imaging and diagnostic systems backed by comprehensive warranties.',
-    badge: 'Certified Warranty',
-    equipmentList: [
-      'Certified Refurbished 64-Slice CT Scanner',
-      'Certified Refurbished 1.5T High-Field MRI Scanner',
-      'Certified Refurbished HD Laparoscopy Tower',
-      'Certified Refurbished Biphasic Defibrillator Unit'
-    ]
-  },
-  {
     id: 'physiotherapy',
     name: 'Physiotherapy & Rehab',
     shortName: 'Physiotherapy',
@@ -273,10 +258,14 @@ export const CATEGORIES: DepartmentCategory[] = [
     description: 'Emergency resuscitation crash carts, hydraulic patient transport stretchers, and stainless steel medical trolleys.',
     badge: 'Hospital Supplies',
     equipmentList: [
-      'Emergency Resuscitation Crash Cart Trolley',
-      'Hydraulic Dual-Pedal Patient Transport Stretcher',
-      'Pneumatic Height-Adjustable Overbed Dining Table',
-      'Heavy-Duty Stainless Steel Medical Instrument Trolley'
+      'EVA M3 Electric 3-Function Bed',
+      'EVA M5 5-Function Electric ICU Bed',
+      'ACE x2 Manual 2-Crank Hospital Bed',
+      'ACE X1 Single Crank Patient Bed',
+      'Phoenix 75 Emergency Crash Cart Trolley',
+      'Phlebo Assist Blood Collection & Phlebotomy Chair',
+      'Epson L130 Medical Film Printer Station with DICOM Software',
+      'Motorized Dialysis & Chemotherapy Treatment Chair'
     ]
   }
 ];
@@ -483,7 +472,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     name: 'Biphasic Defibrillator & External Pacemaker Monitor',
     category: 'cardiology',
     categoryName: 'Cardiology & Vascular',
-    relatedDepartments: ['cardiology', 'emergency', 'icu-ot', 'refurbished'],
+    relatedDepartments: ['cardiology', 'emergency', 'icu-ot'],
     tagline: 'Advanced biphasic defibrillator monitor with manual sync, AED, and non-invasive transcutaneous pacing',
     description: 'Hospital-grade biphasic 360J defibrillator monitor equipped with adult/pediatric paddles, 7-inch color ECG monitor, synchronized cardioversion, and pacing mode.',
     modelNumber: 'MED-DEFIB-360B',
@@ -1097,117 +1086,6 @@ export const PRODUCTS_DATA: ProductItem[] = [
     ]
   },
 
-  // =========================================================================
-  // 9. REFURBISHED EQUIPMENT (4 Products)
-  // =========================================================================
-  {
-    id: 'prod-refurb-ct',
-    name: 'Certified Refurbished 64-Slice CT Scanner',
-    category: 'refurbished',
-    categoryName: 'Refurbished Equipment',
-    relatedDepartments: ['refurbished', 'radiology'],
-    tagline: 'OEM-recalibrated 64-slice high-resolution computed tomography scanner with new X-ray tube',
-    description: 'Fully factory-reconditioned 64-slice CT system with full gantry diagnostic calibration, new replacement X-ray tube, updated workstation software, and 1-year comprehensive warranty.',
-    modelNumber: 'CT-64 REFURB',
-    badge: 'OEM Certified',
-    warrantyYears: 1,
-    image: '/Products/Digital Radiography DR X-Ray System.jpg',
-    certifications: ['CE Mark', 'AERB Compliant', 'ISO 13485 Recalibrated'],
-    applications: ['Cardiac CT Angiography', 'Whole Body Trauma CT', 'Neurovascular Imaging', 'Oncology Staging'],
-    features: [
-      'Sub-millimeter 0.625mm isotropic slice resolution with fast 0.35s rotation speed',
-      'Brand-new OEM high-capacity 7.5 MHU liquid-cooled X-ray tube installed',
-      'Iterative dose reconstruction algorithm reducing radiation dose up to 50%',
-      'Complete installation, de-installation, and site planning support included'
-    ],
-    fullSpecs: [
-      { label: 'Slice Count', value: '64 Slices per Gantry Rotation' },
-      { label: 'Gantry Aperture', value: '70 cm Bore with +/- 30° Tilting' },
-      { label: 'Generator', value: '80 kW High-Frequency Solid State' },
-      { label: 'Warranty', value: '12 Months Full Parts & Tube Warranty' }
-    ]
-  },
-  {
-    id: 'prod-refurb-mri',
-    name: 'Certified Refurbished 1.5T High-Field MRI Scanner',
-    category: 'refurbished',
-    categoryName: 'Refurbished Equipment',
-    relatedDepartments: ['refurbished', 'radiology'],
-    tagline: 'Superconducting 1.5-Tesla whole body magnetic resonance imaging system with zero-boiloff magnet',
-    description: 'High-field 1.5T superconducting MRI scanner fully refurbished with upgraded RF multi-channel coil package, zero-boiloff helium cryostat, and high-performance gradient system.',
-    modelNumber: 'MRI-1.5T PRO',
-    badge: 'Zero Boil-Off',
-    warrantyYears: 1,
-    image: '/Products/Full-Field Digital Mammography System.jpg',
-    certifications: ['CE Mark', 'ISO 13485', 'OEM Verified'],
-    applications: ['Brain & Spine Imaging', 'Musculoskeletal (MSK) MRI', 'Abdominal & Pelvic MR', 'Cardiac MRI'],
-    features: [
-      'Short-bore 1.5T superconducting magnet offering superb patient comfort and claustrophobia reduction',
-      'Zero-helium boil-off technology minimizing recurring cryogen operational costs',
-      'Comprehensive 16-channel coil suite for Neuro, Spine, Body, Knee, and Shoulder',
-      'Advanced parallel acquisition imaging sequences for shortened scan times'
-    ],
-    fullSpecs: [
-      { label: 'Magnetic Field', value: '1.5 Tesla Superconducting Magnet' },
-      { label: 'Gradient Strength', value: '33 mT/m with 120 T/m/s Slew Rate' },
-      { label: 'RF Channels', value: '16-Channel Parallel Digital Receiver' },
-      { label: 'Helium Refill', value: 'Zero Boil-Off Closed Cryogenic Loop' }
-    ]
-  },
-  {
-    id: 'prod-refurb-laparoscopy',
-    name: 'Certified Refurbished HD Laparoscopy Tower',
-    category: 'refurbished',
-    categoryName: 'Refurbished Equipment',
-    relatedDepartments: ['refurbished', 'endoscopy'],
-    tagline: 'Complete German-engineered full HD surgical laparoscopy stack with optical inspection certificate',
-    description: 'Pre-owned high-definition laparoscopic tower meticulously refurbished with tested camera head, xenon/LED light generator, high-flow insufflator, and calibrated surgical monitor.',
-    modelNumber: 'HD-LAP-REFURB',
-    badge: 'Fully Calibrated',
-    warrantyYears: 1,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
-    certifications: ['CE Mark', 'ISO 13485', 'Bio-Medical Inspected'],
-    applications: ['General Laparoscopic OT', 'Gynecological Surgeries', 'Cholecystectomy', 'Hernia Repair'],
-    features: [
-      'Full HD 1080p 3-CCD surgical camera head with zoom optical coupler',
-      'High-output cold light generator with replacement lamp/LED engine',
-      'Calibrated 30L/min CO2 electronic insufflator with leak test verification',
-      'Includes 10mm 0° and 30° rigid laparoscopes with crystal clear rod lenses'
-    ],
-    fullSpecs: [
-      { label: 'Camera Quality', value: '1080p Full HD Progressive Scan' },
-      { label: 'Insufflator Flow', value: '30 Liters / Minute Electronic Control' },
-      { label: 'Light Generator', value: '300W High-Intensity Cold Light Unit' },
-      { label: 'Warranty Term', value: '12 Months Comprehensive Service Cover' }
-    ]
-  },
-  {
-    id: 'prod-refurb-defibrillator',
-    name: 'Certified Refurbished Biphasic Defibrillator Unit',
-    category: 'refurbished',
-    categoryName: 'Refurbished Equipment',
-    relatedDepartments: ['refurbished', 'emergency', 'cardiology'],
-    tagline: 'Biomedical-certified biphasic 360J emergency defibrillator with fresh internal battery',
-    description: 'Thoroughly tested clinical biphasic defibrillator unit with new rechargeable battery pack, tested hard paddles, multi-lead ECG cables, and calibrated energy output testing.',
-    modelNumber: 'DEFIB-REFURB-B',
-    badge: 'New Battery Pack',
-    warrantyYears: 1,
-    image: '/Products/Biphasic Defibrillator and External Pacemaker Monitor.jpg',
-    certifications: ['CE Mark', 'Biomedical Calibrated'],
-    applications: ['Hospital Crash Carts', 'Recovery Rooms', 'Ambulance Units', 'Outpatient Surgery'],
-    features: [
-      'Recalibrated biphasic energy delivery certified from 2J up to 360J',
-      'Brand new high-capacity internal lithium battery pack with zero cycle degradation',
-      'Clean adult and pediatric dual-mode external paddles with contact impedance indicator',
-      'Built-in 50mm strip chart recorder with clean printhead test patterns'
-    ],
-    fullSpecs: [
-      { label: 'Energy Range', value: '2 to 360 Joules Biphasic Waveform' },
-      { label: 'Battery Health', value: '100% Brand New Replacement Battery' },
-      { label: 'Calibration', value: 'Includes NIST-Traceable Biomedical Calibration Certificate' },
-      { label: 'Accessories', value: 'ECG Leads, Hard Paddles, Power Cable, Chart Paper' }
-    ]
-  },
 
   // =========================================================================
   // 10. PHYSIOTHERAPY (4 Products)
@@ -1888,113 +1766,235 @@ export const PRODUCTS_DATA: ProductItem[] = [
 
   // =========================================================================
   // 17. HOSPITAL FURNITURE & WARD (4 Products)
-  // =========================================================================
+  // ==========================================
   {
-    id: 'prod-crash-cart',
-    name: 'Emergency Resuscitation Crash Cart Trolley',
+    id: 'prod-eva-m3-bed',
+    name: 'EVA M3 Electric 3-Function Bed',
     category: 'furniture-disposables',
     categoryName: 'Hospital Furniture & Ward',
-    relatedDepartments: ['furniture-disposables', 'emergency', 'icu-ot'],
-    tagline: 'Heavy-duty ABS emergency resuscitation trolley with central key seal lock, defibrillator shelf, and IV pole',
-    description: 'Ergonomic mobile emergency crash cart equipped with 5 modular drawers, CPR cardiac board, 360-degree rotating defibrillator tray, oxygen tank holder, and central disposable seal locking system.',
-    modelNumber: 'CART-EMERG 500',
-    badge: 'Emergency Crash Cart',
+    relatedDepartments: ['furniture-disposables', 'icu-ot', 'emergency'],
+    tagline: 'Safe, smart, supportive 3-function electric hospital bed with ABS side rails and 10cm memory foam mattress',
+    description: 'Advanced electric 3-function hospital bed engineered for patient safety and caregiver efficiency. Equipped with 3 medical-grade silent motors, low-position stable support system, four-folded ABS guardrails, hole-punched bed board, PP head/foot boards, urine hooks, and stainless steel drip stand.',
+    modelNumber: 'EVA-M3',
+    badge: '3 Motors Electric',
     warrantyYears: 3,
-    image: '/Products/Biphasic Defibrillator and External Pacemaker Monitor.jpg',
-    certifications: ['CE Mark', 'ISO 9001', 'ISO 13485'],
-    applications: ['Emergency Room Triage', 'ICU Resuscitation Units', 'Cardiac Arrest Teams', 'Operating Suites'],
+    image: '/Products/furniture/eva-m3-electric-bed.jpg',
+    certifications: ['CE Certified', 'ISO 13485', 'Quality Assured'],
+    applications: ['Hospital Inpatient Wards', 'ICU Patient Rooms', 'Post-Surgical Recovery', 'Long-Term Care'],
     features: [
-      'High-impact ABS injection-molded body with scratch-resistant stainless steel side rails',
-      'Five ball-bearing sliding drawers with custom partition dividers for emergency medications',
-      'Rotatable 360-degree top shelf designed to secure transport defibrillators and monitors',
-      'Includes back-mounted rigid CPR board, stainless IV pole, and twin waste bins'
+      'Advanced medical motor system (3 Motors, 1 Control Box, 1 Handset)',
+      'Low position stable support system reducing fall risks',
+      'Luxurious four-folded ABS protective guardrails',
+      'Includes 10cm thick high-density memory foam mattress conforming to body contours',
+      'Hole-punched ventilated steel bed board with PP head & foot boards'
     ],
     fullSpecs: [
-      { label: 'Dimensions', value: '850 mm (L) x 520 mm (W) x 1010 mm (H)' },
-      { label: 'Drawers', value: '2 Small, 2 Medium, 1 Large with Modular Dividers' },
-      { label: 'Casters', value: '100 mm Dual-Wheel Medical Casters with 2 Diagonal Brakes' },
-      { label: 'Accessories', value: 'Defibrillator Shelf, CPR Board, IV Pole, O2 Holder' }
+      { label: 'Overall Dimensions', value: '207 cm (L) x 96 cm (W) x 46-73 cm (H)' },
+      { label: 'Mattress', value: '10 cm Thick High-Density Memory Foam' },
+      { label: 'Bed Functions', value: 'Backrest, Leg Rest, Electric Height Adjustment (46-73cm)' },
+      { label: 'Packing Size & Weight', value: '205 x 96 x 37 cm | Net Weight: 90 KG' },
+      { label: 'Accessories Included', value: 'S.S Drip Stand, Urine Hooks, Hand Controller' }
     ]
   },
   {
-    id: 'prod-patient-stretcher',
-    name: 'Hydraulic Dual-Pedal Patient Transport Stretcher',
+    id: 'prod-eva-m5-bed',
+    name: 'EVA M5 5-Function Electric ICU Bed',
     category: 'furniture-disposables',
     categoryName: 'Hospital Furniture & Ward',
-    relatedDepartments: ['furniture-disposables', 'emergency'],
-    tagline: 'Hydraulic emergency patient transfer trolley with central locking brake and retractable 5th wheel steering',
-    description: 'Rugged hospital emergency transport stretcher featuring dual-sided foot hydraulic pedals for smooth height adjustment, collapsible full-length side rails, and high-density waterproof mattress.',
-    modelNumber: 'TROLLEY-HYD 800',
-    badge: 'Hydraulic Transport',
+    relatedDepartments: ['furniture-disposables', 'icu-ot', 'emergency'],
+    tagline: 'Premium 5-function electric ICU bed with Trendelenburg, reverse Trendelenburg, and central locking system',
+    description: 'High-performance 5-function electric ICU hospital bed with advanced motor system, central locking castors, back-up battery, and full Trendelenburg tilting capabilities. Features four-folded ABS guardrails, 10cm memory foam mattress, CPR quick release, and 250KG safe working load capacity.',
+    modelNumber: 'EVA-M5',
+    badge: '5-Function ICU',
     warrantyYears: 3,
-    image: '/Products/Multi-Function Electric Obstetric Delivery Bed.jpg',
-    certifications: ['CE 0123', 'ISO 13485', 'EN 60601-2-52'],
-    applications: ['Emergency Patient Transport', 'Post-Op Recovery Transfer', 'Trauma Resuscitation', 'Ambulance Bay Intake'],
+    image: '/Products/furniture/eva-m5-electric-bed.jpg',
+    certifications: ['CE Certified', 'ISO 13485', 'IEC 60601-2-52'],
+    applications: ['Intensive Care Unit (ICU)', 'Critical Care Wards', 'Cardiac Care Units', 'Emergency Trauma'],
     features: [
-      'Dual hydraulic foot pumps on both sides for elevation and Trendelenburg tilting',
-      'Retractable directional 5th wheel ensuring effortless straight-line tracking around corners',
-      'Fold-down full-length safety side rails with easy one-hand squeeze latch',
-      'Central braking pedal locking all 4 wheels simultaneously from any corner'
+      'Full 5-function electric adjustment: Backrest, Leg Rest, Height, Trendelenburg & Reverse Trendelenburg',
+      'Central locking castor system with single pedal braking for total safety and easy mobility',
+      'Uninterrupted back-up battery operation ensuring continuous function during power outages',
+      'Trendelenburg (0°-12°) and Reverse Trendelenburg (0°-12°) tilting control',
+      'High capacity 250 KG safe working load with 10cm memory foam mattress'
     ],
     fullSpecs: [
-      { label: 'Safe Load Capacity', value: '250 kg Maximum Patient Weight' },
-      { label: 'Height Range', value: '590 mm to 910 mm Hydraulic Lift' },
-      { label: 'Trendelenburg Angle', value: '+18° / -18° Smooth Tilting' },
-      { label: 'Mattress', value: '70 mm High-Density Antimicrobial Waterproof Foam' }
+      { label: 'Dimensions', value: '207 cm (L) x 96 cm (W) x 46-73 cm (H)' },
+      { label: 'Backrest Adjustment', value: '0° to 75° Electric Elevation' },
+      { label: 'Leg Rest Adjustment', value: '0° to 45° Electric Elevation' },
+      { label: 'Trendelenburg / Reverse', value: '0° to 12° / 0° to 12° Tilt' },
+      { label: 'Safe Working Load', value: '250 KG Patient Capacity (N.W: 110 KG)' }
     ]
   },
   {
-    id: 'prod-overbed-table',
-    name: 'Pneumatic Height-Adjustable Overbed Dining Table',
+    id: 'prod-ace-x2-bed',
+    name: 'ACE x2 Manual 2-Crank Hospital Bed',
     category: 'furniture-disposables',
     categoryName: 'Hospital Furniture & Ward',
     relatedDepartments: ['furniture-disposables', 'rehab-homecare'],
-    tagline: 'One-touch pneumatic gas-spring hospital overbed table with spill-containment rim and low-profile base',
-    description: 'High-durability hospital overbed table with smooth pneumatic gas spring height adjustment from 720mm to 1020mm, scratch-resistant walnut/white laminate top, and low-clearance mobile casters.',
-    modelNumber: 'TAB-PNEU 100',
-    badge: 'Pneumatic Lift',
+    tagline: 'Heavy-duty 2-crank manual hospital bed with overbed feeding table and 8cm memory foam mattress',
+    description: 'Durable and reliable manual 2-crank hospital patient bed designed for everyday clinical care. Includes an integrated overbed feeding table, 8cm memory foam mattress, aluminum guardrails, 5-inch castors, PE head & foot boards, and stainless steel IV drip stand.',
+    modelNumber: 'ACE-X2',
+    badge: '2-Crank Manual',
     warrantyYears: 2,
-    image: '/Products/Multi-Function Electric Obstetric Delivery Bed.jpg',
-    certifications: ['CE Mark', 'ISO 9001'],
-    applications: ['Hospital Inpatient Wards', 'ICU Patient Dining', 'Elderly Nursing Care', 'Homecare Bedrooms'],
+    image: '/Products/furniture/ace-x2-manual-bed.jpg',
+    certifications: ['CE Mark', 'ISO 13485'],
+    applications: ['General Inpatient Wards', 'Nursing Homes', 'Outpatient Clinics', 'Rehabilitation Centers'],
     features: [
-      'One-touch effortless fingertip upward lifting mechanism with smooth gas spring',
-      'Molded spill-retaining perimeter lip preventing liquid spills from dripping onto floor',
-      'Slim low-profile U-shaped steel base sliding easily under low-clearance hospital beds',
-      'Four hidden omni-directional swivel casters with non-marking rubber wheels'
+      'Dual retractable smooth manual crank handles for head elevation and knee-rest adjustment',
+      'Includes detachable overbed dining feeding table and 8cm memory foam mattress',
+      'Collapsible aluminum side rails for patient safety and easy exit',
+      'Smooth 5-inch swivel castors with individual brakes',
+      'Perforated bar-type bed board with PE head and foot boards'
     ],
     fullSpecs: [
-      { label: 'Tabletop Size', value: '800 mm (L) x 400 mm (W) High-Pressure Laminate' },
-      { label: 'Height Range', value: '720 mm to 1020 mm Continuous Gas-Spring Lift' },
-      { label: 'Load Capacity', value: '25 kg Distributed Weight' },
-      { label: 'Base Material', value: 'Heavy-Duty Powder-Coated Carbon Steel' }
+      { label: 'Bed Dimensions', value: '200 cm (L) x 96 cm (W) x 50 cm (H)' },
+      { label: 'Mattress', value: '8 cm High-Density Memory Foam Mattress' },
+      { label: 'Weight', value: 'Net Weight: 48 KG | Gross Weight: 50 KG' },
+      { label: 'Guardrails & Castors', value: 'Collapsible Aluminum Rails | 5-Inch Braid Castors' },
+      { label: 'Included Accessories', value: 'Feeding Table, IV Pole, Urine Hooks, S.S Drip Stand' }
     ]
   },
   {
-    id: 'prod-instrument-trolley',
-    name: 'Heavy-Duty Stainless Steel Medical Instrument Trolley',
+    id: 'prod-ace-x1-bed',
+    name: 'ACE X1 Single Crank Hospital Patient Bed',
     category: 'furniture-disposables',
     categoryName: 'Hospital Furniture & Ward',
-    relatedDepartments: ['furniture-disposables', 'icu-ot', 'laboratory'],
-    tagline: 'Grade 304 surgical stainless steel 2-tier dressing and instrument trolley with 3-sided guard rails',
-    description: 'Sterile surgical instrument and medication dressing trolley constructed from heavy-gauge seamless AISI 304 stainless steel with double shelves, safety guardrails, and antistatic swivel casters.',
-    modelNumber: 'SS-TROLLEY 304',
-    badge: 'AISI 304 Steel',
-    warrantyYears: 5,
-    image: '/Products/electro-hydraulic  electric surgical operating table.jpg',
-    certifications: ['CE Mark', 'ISO 9001', 'GMP Compliant'],
-    applications: ['Operation Theatre Sterile Tables', 'Ward Dressing & Injections', 'Lab Sample Transport', 'Dental Clinics'],
+    relatedDepartments: ['furniture-disposables', 'rehab-homecare'],
+    tagline: 'Reliable single-crank manual patient bed with 8cm memory foam mattress, feeding table & IV pole',
+    description: 'Comfortable, safe, and reliable single crank manual hospital bed. Equipped with backrest elevation crank mechanism, 8cm memory foam mattress, detachable food table, aluminum guardrails, 5-inch castors, and PE head & foot board.',
+    modelNumber: 'ACE-X1',
+    badge: 'Single Crank',
+    warrantyYears: 2,
+    image: '/Products/furniture/ace-x1-manual-bed.jpg',
+    certifications: ['CE Mark', 'ISO 9001'],
+    applications: ['General Hospital Wards', 'Sub-Acute Care', 'Homecare Bedrooms', 'Clinic Recovery Rooms'],
     features: [
-      'Fabricated from high-purity corrosion-resistant AISI 304 stainless steel with satin polish',
-      'Dual shelves equipped with 3-sided safety guard rails preventing instruments from falling',
-      'Seamless smooth argon-welded joints without sharp edges for effortless sterilization wiping',
-      'Four 75mm medical antistatic swivel casters with 2 diagonal brake locks'
+      'Single manual crank handle for smooth backrest adjustment',
+      'Complete patient kit: 8cm memory foam mattress, overbed food table, and IV pole included',
+      'Lightweight aluminum guardrails protecting patients against accidental falls',
+      'Durable bar-type bed board with PE head and foot boards',
+      '5-inch silent castors for smooth central mobility'
     ],
     fullSpecs: [
-      { label: 'Material', value: '1.2 mm Thick AISI 304 Surgical Stainless Steel' },
-      { label: 'Overall Dimensions', value: '750 mm (L) x 450 mm (W) x 850 mm (H)' },
-      { label: 'Shelves', value: '2-Tier Stainless Steel with 3-Sided Guardrails' },
-      { label: 'Casters', value: '75 mm Silent Swivel Wheels with Precision Bearings' }
+      { label: 'Dimensions', value: '200 cm (L) x 96 cm (W) x 50 cm (H)' },
+      { label: 'Mattress', value: '8 cm Memory Foam Mattress' },
+      { label: 'Bed Frame Weight', value: 'Net Weight: 43 KG | Gross Weight: 45 KG' },
+      { label: 'Guardrails', value: 'Aluminum Collapsible Protective Side Rails' },
+      { label: 'Included Accessories', value: 'Food Table, Stainless Steel IV Drip Stand, Urine Hooks' }
+    ]
+  },
+  {
+    id: 'prod-phoenix-75-crash-cart',
+    name: 'Phoenix 75 Emergency Crash Cart Trolley',
+    category: 'furniture-disposables',
+    categoryName: 'Hospital Furniture & Ward',
+    relatedDepartments: ['furniture-disposables', 'emergency', 'icu-ot'],
+    tagline: '360° view 5-drawer emergency responder trolley with defibrillator shelf, IV pole & central lock',
+    description: 'Engineered for critical emergency care, the Phoenix 75 is a high-strength ABS emergency crash cart trolley. Features 5 color-coded drawers with divider systems, raised-edge defibrillator shelf with safety straps, sliding side work surface, height-adjustable IV pole, needle disposal holder, utility container, two color-coded waste bins, and centralized key lock.',
+    modelNumber: 'PHOENIX-75',
+    badge: 'Emergency Crash Cart',
+    warrantyYears: 3,
+    image: '/Products/furniture/phoenix-75-crash-cart.jpg',
+    certifications: ['CE Mark', 'ISO 13485', 'Bio-Medical Grade'],
+    applications: ['Emergency Rooms (ER)', 'Crash Cart Mobile Response', 'ICU Resuscitation', 'Operating Theatres'],
+    features: [
+      'High-strength ABS plastic top board with arc handle, raised edges, and transparent soft plastic cover',
+      '5-drawer smart storage system (2 small, 2 middle, 1 big) with internal dividers and label cards',
+      'Defibrillator shelf with raised edges and safety straps + sliding pull-out side work shelf',
+      'Centralized one-key locking mechanism securing all drawers simultaneously',
+      'Four silent 360° swivel casters with 2 front diagonal brake locks'
+    ],
+    fullSpecs: [
+      { label: 'Trolley Dimensions', value: '75 cm (W) x 48 cm (D) x 98 cm (H)' },
+      { label: 'Material', value: 'High-Strength ABS Plastic Top & Four Aluminum Support Columns' },
+      { label: 'Drawer Configuration', value: '2 Small, 2 Medium, 1 Large Drawer with Modular Dividers' },
+      { label: 'Included Accessories', value: 'IV Pole, Defibrillator Shelf, Needle Disposal, Utility Bin, 2 Waste Bins' },
+      { label: 'Casters', value: 'Four Noiseless Swivel Casters with 2 Independent Brake Locks' }
+    ]
+  },
+  {
+    id: 'prod-phlebo-assist-chair',
+    name: 'Phlebo Assist Blood Collection & Phlebotomy Chair',
+    category: 'furniture-disposables',
+    categoryName: 'Hospital Furniture & Ward',
+    relatedDepartments: ['furniture-disposables', 'laboratory'],
+    tagline: 'Ergonomic 3-position adjustable phlebotomy chair with carbon steel frame & imported wood armrests',
+    description: 'Multi-purpose clinical phlebotomy and blood collection chair designed for maximum patient comfort during blood sampling, vitals room checkups, and IV infusion therapy. Built with a heavy-duty carbon steel frame, high-density foam with PVC leather upholstery, imported mountain wood armrests, 3-position adjustable backrest (up to 70° recline), silicone foot pads, infusion stand, side basket, and foot pedal.',
+    modelNumber: 'PHLEBO-ASSIST',
+    badge: 'Phlebotomy & Blood Draw',
+    warrantyYears: 2,
+    image: '/Products/furniture/phlebo-assist-chair.jpg',
+    certifications: ['CE Mark', 'ISO 9001'],
+    applications: ['Blood Collection Centers', 'Phlebotomy Labs', 'Vitals Examination Rooms', 'Infusion Clinics'],
+    features: [
+      'Three adjustable backrest positions with smooth max recline angle up to 70°',
+      'Heavy-duty carbon steel frame with high-density sponge and durable PVC soft leather',
+      'Premium imported mountain wood armrests providing natural comfort and support',
+      'Complete clinical suite: stainless steel infusion stand, side utility basket, and foot pedal included',
+      'Non-marking silicone floor foot pads protecting laboratory flooring'
+    ],
+    fullSpecs: [
+      { label: 'Chair Width / Height', value: '65 cm Upright Width | 62 cm Seat Width | 78 cm Top Length' },
+      { label: 'Frame & Armrest', value: 'Carbon Steel Frame with Imported Mountain Wood Armrests' },
+      { label: 'Weight Capacity', value: '150 KG Patient Capacity (Chair Weight: 22 KG)' },
+      { label: 'Recline Angle', value: '0° to 70° Adjustable Backrest' },
+      { label: 'Included Accessories', value: 'Height-Adjustable Infusion Stand, Side Storage Basket, Foot Pedal' }
+    ]
+  },
+  {
+    id: 'prod-epson-l130-dicom',
+    name: 'Epson L130 Medical Film Printer Station with DICOM Software',
+    category: 'furniture-disposables',
+    categoryName: 'Hospital Furniture & Ward',
+    relatedDepartments: ['furniture-disposables', 'radiology'],
+    tagline: 'High-resolution X-ray & ultrasound medical film printing solution with seamless DICOM integration',
+    description: 'Reliable, affordable, and purpose-built medical imaging film printer station. Combines high-precision Epson L130 inkjet hardware with specialized DICOM print server software for printing sharp, high-contrast X-ray and ultrasound images on medical film paper at extremely low running costs.',
+    modelNumber: 'EPSON-L130-DICOM',
+    badge: 'DICOM Print Station',
+    warrantyYears: 1,
+    image: '/Products/furniture/epson-l130-dicom-printer.jpg',
+    certifications: ['CE Mark', 'ISO 9001', 'DICOM 3.0 Compliant'],
+    applications: ['Radiology Film Printing', 'Ultrasound & X-Ray Reports', 'Outpatient Diagnostic Centers', 'Clinical Imaging Labs'],
+    features: [
+      'Seamless DICOM software integration connecting directly with PACS workstations and imaging modalities',
+      'High-contrast sharp prints optimized for radiological X-ray and ultrasound diagnostic review',
+      'Extremely low running cost per film sheet compared to traditional thermal film dry imagers',
+      'Compact desktop footprint with easy USB installation and user-friendly operation'
+    ],
+    fullSpecs: [
+      { label: 'Print Technology', value: 'High-Precision Micro Piezo Inkjet Printing' },
+      { label: 'Software Included', value: 'DICOM Print Server & Medical Imaging Print Management Software' },
+      { label: 'Supported Modalities', value: 'CR, DR X-Ray, Ultrasound, CT / MRI Slice Sheet Printing' },
+      { label: 'Connectivity', value: 'USB 2.0 & DICOM Network Print Gateway' }
+    ]
+  },
+  {
+    id: 'prod-motorized-dialysis-chair',
+    name: 'Motorized Dialysis & Chemotherapy Treatment Chair',
+    category: 'furniture-disposables',
+    categoryName: 'Hospital Furniture & Ward',
+    relatedDepartments: ['furniture-disposables', 'icu-ot'],
+    tagline: 'Multi-motor electric treatment chair with high-density cushion and remote control for long-term therapy',
+    description: 'Ergonomic multi-motor electric treatment chair designed for dialysis, chemotherapy, and blood transfusion therapy. Features 2 & 3 motor adjustment options for smooth height, backrest, and leg rest positioning, high-density supportive cushion with easy-to-clean PU/PVC synthetic leather, separate head pillow, side dining/accessory tray, and 200kg load capacity.',
+    modelNumber: 'MED-DIALYSIS-CHAIR',
+    badge: 'Dialysis & Chemo',
+    warrantyYears: 2,
+    image: '/Products/furniture/motorized-dialysis-chair.jpg',
+    certifications: ['CE Mark', 'ISO 13485'],
+    applications: ['Hemodialysis Centers', 'Oncology Chemotherapy Wards', 'Blood Transfusion Units', 'Infusion Suites'],
+    features: [
+      'Smooth 2 & 3 motor electric operation controlled via ergonomic handheld remote',
+      'High-density supportive cushion with easy-to-disinfect synthetic PVC/PU medical leather',
+      'Stable heavy-duty base structure with 200 KG loading capacity and secure locking wheels',
+      'Integrated adjustable IV pole and side dining/procedure table',
+      'Separate headrest pillow and adjustable footrest for maximum patient comfort during long procedures'
+    ],
+    fullSpecs: [
+      { label: 'Overall Size', value: '78" (L) x 22" (W) x 26-36" (H) Inch' },
+      { label: 'Motors', value: '2 & 3 Motor Options with Handheld Remote' },
+      { label: 'Loading Capacity', value: '200 KG Safe Working Load' },
+      { label: 'Upholstery Material', value: 'Synthetic Leather (PVC / PU) over High-Density Foam' },
+      { label: 'Included Accessories', value: 'Separate Head Pillow, Adjustable Side Tray, IV Pole' }
     ]
   }
 ];

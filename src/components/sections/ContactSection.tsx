@@ -40,7 +40,6 @@ const serviceOptions = [
   { value: 'physiotherapy', label: 'Physiotherapy & Rehabilitation' },
   { value: 'rehab-homecare', label: 'Rehabilitation, Power Mobility & Homecare' },
   { value: 'furniture-disposables', label: 'Hospital Furniture, Beds & Crash Carts' },
-  { value: 'refurbished', label: 'OEM-Certified Refurbished Equipment' },
   { value: 'spares', label: 'OEM Spares & Biomedical Maintenance (AMC/CMC)' },
   { value: 'general', label: 'General Medical Equipment Inquiry' },
 ];

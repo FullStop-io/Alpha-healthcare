@@ -1,38 +1,35 @@
 import React from 'react';
+import { Eye, Target, MapPin } from 'lucide-react';
 
 interface AboutSectionProps {
   onOpenQuoteModal: () => void;
 }
 
 export const AboutSection: React.FC<AboutSectionProps> = () => {
-
   return (
     <section id="about" className="py-20 bg-[#ebf2f8] relative overflow-hidden font-sans border-t border-sky-100">
-      {/* Premium Hospital Ambient Medical Background */}
+      {/* Ambient Medical Background */}
       <div className="absolute inset-0 medical-cross-pattern opacity-60 pointer-events-none z-0" />
       <div className="absolute -top-32 right-0 w-96 h-96 bg-brand-blue-500/10 rounded-full blur-3xl pointer-events-none z-0" />
       <div className="absolute bottom-0 -left-32 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl pointer-events-none z-0" />
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0 overflow-hidden">
-        <img
-          src="/alpha-facility.jpg"
-          alt=""
-          className="w-full h-full object-cover filter blur-[1px]"
-        />
-      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
         {/* Section Heading */}
         <div className="mb-12">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-blue-50 border border-brand-blue-200/60 text-brand-blue-700 text-xs font-bold tracking-wider uppercase mb-3">
+            <span className="w-2 h-2 rounded-full bg-brand-blue-600 animate-pulse" />
+            Operational Excellence &amp; Healthcare Consultancy
+          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy-950 tracking-tight leading-[1.15]">
             About <span className="text-brand-blue-600">Alpha Healthcare Solutions</span>
           </h2>
         </div>
 
-        {/* Two-Column Layout: Paragraphs + Building Photo */}
+        {/* Two-Column Layout: Paragraphs + About Us Image & Visit Us */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
 
-          {/* Left Column — 5 Verbatim Paragraphs */}
+          {/* Left Column — Overview Paragraphs + Vision & Mission */}
           <div className="lg:col-span-7 space-y-6">
             <p className="text-base sm:text-[17px] text-slate-700 leading-[1.85] font-normal">
               Alpha healthcare solutions is global healthcare trading and consultancy company committed to advancing medical standards through innovation, precision, and integrity. We specialize in the import, export, and distribution of high quality medical instruments, surgical supplies, and diagnostic equipment, serving hospitals, clinics, and distributors around the world.
@@ -53,29 +50,69 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
             <p className="text-base sm:text-[17px] text-slate-700 leading-[1.85] font-normal">
               With a strong commitment to innovation and healthcare advancement, Alpha Healthcare solutions continues to be a trusted name in the medical supply and consultancy industry — connecting technology, precision, and care to create a healthier world.
             </p>
-          </div>
 
-          {/* Right Column — Sticky Building Photo */}
-          <div className="lg:col-span-5 lg:sticky lg:top-28">
-            <div className="rounded-3xl overflow-hidden shadow-clinical-lg border border-slate-200/80 relative group h-[420px] sm:h-[500px] lg:h-[580px]">
-              <picture className="w-full h-full block">
-                <source media="(min-width: 640px)" srcSet="/alpha-facility-desktop.jpg" />
-                <img
-                  src="/alpha-facility-mobile.jpg"
-                  alt="Alpha Healthcare Solutions Headquarters — Delta Tower, Thana, Kannur"
-                  className="w-full h-full object-cover object-[center_30%] sm:object-center group-hover:scale-[1.03] transition-transform duration-700 ease-in-out"
-                />
-              </picture>
-              {/* Caption Overlay */}
-              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/85 via-slate-950/40 to-transparent px-5 py-5 text-left">
-                <p className="text-sm font-bold text-white tracking-wide leading-snug">
-                  Alpha Healthcare Solutions Headquarters
+            {/* Vision & Mission Cards Grid — Clean Minimal Design */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-4">
+              {/* Our Vision Card */}
+              <div className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-xs hover:border-slate-300 transition-all duration-200">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-9 h-9 rounded-lg bg-sky-50 text-brand-blue-600 flex items-center justify-center shrink-0">
+                    <Eye className="w-5 h-5 stroke-[1.8]" />
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900 tracking-tight">Our Vision</h3>
+                </div>
+                <p className="text-sm text-slate-600 leading-relaxed font-normal">
+                  Committed to provide the highest level of Operational Excellence, with value - added Services to offer Complete Healthcare Solution for Long term Healthy Business Relations.
                 </p>
-                <p className="text-xs text-sky-300 font-medium mt-1">
-                  Delta Tower, 2nd Floor, Thana, Kannur – Kerala, India
+              </div>
+
+              {/* Our Mission Card */}
+              <div className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-xs hover:border-slate-300 transition-all duration-200">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                    <Target className="w-5 h-5 stroke-[1.8]" />
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900 tracking-tight">Our Mission</h3>
+                </div>
+                <p className="text-sm text-slate-600 leading-relaxed font-normal">
+                  To deliver the best possible Customer service, Excellent Quality &amp; the most Advanced Equipment&apos;.
                 </p>
               </div>
             </div>
+
+          </div>
+
+          {/* Right Column — Sticky Image & Visit Us */}
+          <div className="lg:col-span-5 lg:sticky lg:top-28 space-y-6">
+
+            {/* About Us Signage Image */}
+            <div className="rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 h-[420px] sm:h-[480px]">
+              <img
+                src="/about-us-signage.jpg"
+                alt="Alpha Healthcare Solutions Signage"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+
+            {/* Visit Us Address Card — Clean Minimal Design */}
+            <div className="bg-slate-900 text-white rounded-2xl p-6 shadow-sm border border-slate-800">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-9 h-9 rounded-lg bg-slate-800 text-sky-400 flex items-center justify-center shrink-0">
+                  <MapPin className="w-5 h-5 stroke-[1.8]" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white tracking-tight">Visit Us</h3>
+                  <p className="text-xs text-slate-400 font-medium">Headquarters &amp; Executive Office</p>
+                </div>
+              </div>
+
+              <div className="space-y-1 text-sm text-slate-300 leading-relaxed font-normal border-t border-slate-800 pt-3.5">
+                <p className="font-semibold text-white text-base">Alpha Healthcare Solutions</p>
+                <p>Delta Tower, 2nd Floor, Thana</p>
+                <p>Kannur – 670012, Kerala, India</p>
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -83,4 +120,3 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
     </section>
   );
 };
-

@@ -4,10 +4,7 @@ import {
   PhoneCall, 
   Mail, 
   MapPin, 
-  ShieldCheck, 
-  ArrowRight, 
-  CheckCircle2,
-  Award,
+  ArrowRight,
   ChevronRight
 } from 'lucide-react';
 
@@ -97,21 +94,6 @@ export const Footer: React.FC<FooterProps> = ({
               </p>
             </div>
 
-            {/* Premium Pill Badges for Certifications */}
-            <div className="flex flex-wrap gap-2">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-700/80 text-sky-300 text-[11px] font-medium shadow-2xs">
-                <ShieldCheck className="w-3.5 h-3.5 text-sky-400" />
-                <span>ISO 13485:2016</span>
-              </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-700/80 text-sky-300 text-[11px] font-medium shadow-2xs">
-                <Award className="w-3.5 h-3.5 text-sky-400" />
-                <span>CE 0123 / FDA 510(k)</span>
-              </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-700/80 text-sky-300 text-[11px] font-medium shadow-2xs">
-                <CheckCircle2 className="w-3.5 h-3.5 text-sky-400" />
-                <span>NABL Calibrated</span>
-              </div>
-            </div>
 
             {/* Sleek Integrated Capsule Newsletter Form */}
             <div className="space-y-2 pt-1 max-w-md">

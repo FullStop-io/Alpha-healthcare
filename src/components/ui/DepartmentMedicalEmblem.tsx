@@ -8,7 +8,6 @@ import {
   Heart,
   Video,
   Volume2,
-  RefreshCw,
   Activity,
   Baby,
   Smile,
@@ -51,8 +50,6 @@ export const DepartmentMedicalEmblem: React.FC<DepartmentMedicalEmblemProps> = (
         return <Video className={iconClass} strokeWidth={2.2} />;
       case 'ent':
         return <Volume2 className={iconClass} strokeWidth={2.2} />;
-      case 'refurbished':
-        return <RefreshCw className={iconClass} strokeWidth={2.2} />;
       case 'physiotherapy':
         return <Activity className={iconClass} strokeWidth={2.2} />;
       case 'neonatal':
@@ -175,18 +172,6 @@ export const DepartmentMedicalEmblem: React.FC<DepartmentMedicalEmblemProps> = (
               </g>
             );
 
-          /* 9. REFURBISHED: Certified Quality Renewal Loop */
-          case 'refurbished':
-            return (
-              <g stroke="currentColor" strokeWidth="3" opacity="0.9">
-                <circle cx="50" cy="50" r="42" strokeDasharray="8 6" strokeWidth="2" />
-                <path d="M28 34 A26 26 0 0 1 74 38" strokeLinecap="round" />
-                <polygon points="70,30 80,38 68,44" fill="currentColor" />
-                <path d="M72 66 A26 26 0 0 1 26 62" strokeLinecap="round" />
-                <polygon points="30,70 20,62 32,56" fill="currentColor" />
-                <circle cx="50" cy="50" r="10" strokeWidth="2" />
-              </g>
-            );
 
           /* 10. PHYSIOTHERAPY: Kinetic Sinusoidal Wave */
           case 'physiotherapy':

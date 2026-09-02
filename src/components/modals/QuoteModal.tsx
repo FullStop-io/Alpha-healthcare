@@ -216,7 +216,6 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
                     <option value="Gynecology & Obstetrics">Gynecology & Obstetrics</option>
                     <option value="Endoscopy & Laparoscopy">Endoscopy & Laparoscopy</option>
                     <option value="ENT Equipment">ENT Equipment</option>
-                    <option value="Refurbished Equipment">Refurbished Equipment</option>
                     <option value="Physiotherapy & Rehab">Physiotherapy & Rehab</option>
                     <option value="Neonatal & Pediatric">Neonatal & Pediatric</option>
                     <option value="Dental Equipments">Dental Equipments</option>
