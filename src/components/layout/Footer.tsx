@@ -61,14 +61,14 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Column 1: Brand Info (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="inline-block p-2.5 rounded-xl bg-white/95 shadow-xs">
-              <BrandLogo className="h-9 w-auto" />
+              <BrandLogo size="lg" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               Alpha Healthcare Solutions is a global healthcare trading and hospital consultancy company dedicated to delivering high-grade medical technologies, diagnostic modalities, and turnkey healthcare projects.
             </p>
-            <p className="text-xs text-brand-blue-400 font-bold tracking-widest uppercase">
-              Reliable Partner in Healthcare
-            </p>
+            <span className="text-[11px] text-slate-400 font-medium tracking-wide block">
+              Global Medical Technology & Consultancy
+            </span>
           </div>
 
           {/* Column 2: Equipment & Modalities (3 cols) */}

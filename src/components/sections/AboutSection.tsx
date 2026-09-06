@@ -1,5 +1,5 @@
 import React from 'react';
-import { Eye, Target, MapPin } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 interface AboutSectionProps {
   onOpenQuoteModal: () => void;
@@ -51,11 +51,13 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-4">
               {/* Our Vision Card */}
               <div className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-xs hover:border-slate-300 transition-all duration-200">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-9 h-9 rounded-lg bg-sky-50 text-brand-blue-600 flex items-center justify-center shrink-0">
-                    <Eye className="w-5 h-5 stroke-[1.8]" />
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 tracking-tight">Our Vision</h3>
+                <div className="flex items-center gap-3.5 mb-3.5">
+                  <img
+                    src="/Brand/vision-gear.png"
+                    alt="Our Vision"
+                    className="w-12 h-12 sm:w-14 sm:h-14 object-contain shrink-0 drop-shadow-sm"
+                  />
+                  <h3 className="text-xl font-bold text-slate-900 tracking-tight">Our Vision</h3>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed font-normal">
                   Committed to provide the highest level of Operational Excellence, with value - added Services to offer Complete Healthcare Solution for Long term Healthy Business Relations.
@@ -64,11 +66,13 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
 
               {/* Our Mission Card */}
               <div className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-xs hover:border-slate-300 transition-all duration-200">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
-                    <Target className="w-5 h-5 stroke-[1.8]" />
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 tracking-tight">Our Mission</h3>
+                <div className="flex items-center gap-3.5 mb-3.5">
+                  <img
+                    src="/Brand/mission-gear.png"
+                    alt="Our Mission"
+                    className="w-12 h-12 sm:w-14 sm:h-14 object-contain shrink-0 drop-shadow-sm"
+                  />
+                  <h3 className="text-xl font-bold text-slate-900 tracking-tight">Our Mission</h3>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed font-normal">
                   To deliver the best possible Customer service, Excellent Quality &amp; the most Advanced Equipment&apos;.

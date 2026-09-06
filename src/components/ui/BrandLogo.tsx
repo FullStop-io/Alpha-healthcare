@@ -24,27 +24,27 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
 
   const sizeClasses = {
     sm: {
-      img: 'h-7 sm:h-8 w-auto object-contain',
+      img: 'h-12 sm:h-15 w-auto object-contain',
       container: 'p-1',
       tagline: 'text-[9px]',
     },
     md: {
-      img: 'h-9 sm:h-11 w-auto object-contain',
+      img: 'h-18 sm:h-22 w-auto object-contain',
       container: 'px-2 py-1',
       tagline: 'text-[10px]',
     },
     lg: {
-      img: 'h-13 sm:h-16 w-auto object-contain',
+      img: 'h-24 sm:h-28 w-auto object-contain',
       container: 'px-3 py-2',
       tagline: 'text-xs',
     },
     xl: {
-      img: 'h-18 sm:h-22 w-auto object-contain',
+      img: 'h-30 sm:h-36 w-auto object-contain',
       container: 'px-4 py-3',
       tagline: 'text-sm',
     },
     '2xl': {
-      img: 'h-24 sm:h-28 w-auto object-contain',
+      img: 'h-36 sm:h-44 w-auto object-contain',
       container: 'px-6 py-4',
       tagline: 'text-base',
     },

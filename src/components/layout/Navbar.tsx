@@ -31,7 +31,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header className="sticky top-0 left-0 right-0 z-50 bg-white border-b border-slate-200/80 font-sans shadow-2xs">
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-3.5 sm:py-4 flex items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-2.5 sm:py-3 lg:py-3.5 flex items-center justify-between gap-4 sm:gap-6">
         {/* Brand Logo - Aligned on the Left */}
         <a
           href="#home"
@@ -39,17 +39,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             e.preventDefault();
             handleNavClick('home');
           }}
-          className="flex flex-col items-start group cursor-pointer focus:outline-none flex-shrink-0"
+          className="flex items-center group cursor-pointer focus:outline-none flex-shrink-0"
         >
           <img
             src="/Brand/alpha-logo.png"
             alt="Alpha Healthcare Solutions"
-            className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.01]"
+            className="h-20 sm:h-20 md:h-20 lg:h-18 xl:h-20 w-auto max-w-[calc(100vw-85px)] sm:max-w-none object-contain transition-transform duration-200 group-hover:scale-[1.02]"
             loading="eager"
           />
-          <span className="text-[10px] sm:text-[11px] font-bold tracking-widest text-brand-blue-600 uppercase mt-0.5 font-sans">
-            Reliable Partner in Healthcare
-          </span>
         </a>
 
         {/* Text-Only Desktop Navigation Links Aligned on the Right */}
