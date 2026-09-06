@@ -177,9 +177,9 @@ export const App: React.FC = () => {
       {/* Ambient Low-Opacity Landing Page Background Watermark */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden opacity-[0.035]">
         <picture className="w-full h-full block">
-          <source media="(min-width: 768px)" srcSet="/alpha-building-desktop.jpg" />
+          <source media="(min-width: 768px)" srcSet="/Facility/alpha-building-desktop.jpg" />
           <img
-            src="/alpha-building-mobile.jpg"
+            src="/Facility/alpha-building-mobile.jpg"
             alt=""
             className="w-full h-full object-cover object-[center_20%] md:object-[80%_center] filter blur-[1px]"
           />

@@ -16,7 +16,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
   className = '',
   showTagline = false,
   layout = 'horizontal',
-  src = '/alpha-logo.png',
+  src = '/Brand/alpha-logo.png',
   alt = 'ALPHA HEALTHCARE SOLUTIONS',
 }) => {
   const isBadge = variant === 'badge' || layout === 'badge';
@@ -65,8 +65,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
           />
         </div>
         {showTagline && (
-          <span className={`text-slate-400 font-semibold tracking-wider uppercase mt-1 ${currentSize.tagline}`}>
-            Your Reliable Partner in Healthcare
+          <span className={`text-brand-blue-600 font-bold tracking-widest uppercase mt-0.5 ${currentSize.tagline}`}>
+            Reliable Partner in Healthcare
           </span>
         )}
       </div>
@@ -84,8 +84,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
           loading="eager"
         />
         {showTagline && (
-          <span className={`text-slate-500 font-semibold tracking-wider uppercase mt-1.5 ${currentSize.tagline}`}>
-            Your Reliable Partner in Healthcare
+          <span className={`text-brand-blue-600 font-bold tracking-widest uppercase mt-0.5 ${currentSize.tagline}`}>
+            Reliable Partner in Healthcare
           </span>
         )}
       </div>
@@ -104,8 +104,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
         />
       </div>
       {showTagline && (
-        <span className={`text-slate-500 font-semibold tracking-wider uppercase mt-0.5 ${currentSize.tagline}`}>
-          Your Reliable Partner in Healthcare
+        <span className={`text-brand-blue-600 font-bold tracking-widest uppercase mt-0.5 ${currentSize.tagline}`}>
+          Reliable Partner in Healthcare
         </span>
       )}
     </div>

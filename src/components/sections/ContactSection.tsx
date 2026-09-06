@@ -7,7 +7,6 @@ import {
   CheckCircle2, 
   Send,
   MessageSquare,
-  ShieldCheck,
   MapPin
 } from 'lucide-react';
 
@@ -70,7 +69,7 @@ export const ContactSection: React.FC<ContactSectionProps> = () => {
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl pointer-events-none z-0" />
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0 overflow-hidden">
         <img
-          src="/alpha-facility.jpg"
+          src="/Facility/alpha-facility.jpg"
           alt=""
           className="w-full h-full object-cover filter blur-[1px]"
         />
@@ -198,13 +197,10 @@ export const ContactSection: React.FC<ContactSectionProps> = () => {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-                <div className="flex items-center justify-between pb-2 border-b border-slate-200">
-                  <span className="text-xs font-extrabold uppercase tracking-wider text-brand-navy-950">
-                    Medical Solution Request Form
-                  </span>
-                  <span className="text-[11px] font-mono text-emerald-600 font-bold flex items-center gap-1">
-                    <ShieldCheck className="w-3.5 h-3.5" /> ISO 13485
-                  </span>
+                <div className="pb-2 border-b border-slate-200">
+                  <h3 className="text-lg font-bold text-brand-navy-950">
+                    Request Form
+                  </h3>
                 </div>
 
                 {/* Full Name */}

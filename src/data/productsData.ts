@@ -138,10 +138,15 @@ export const CATEGORIES: DepartmentCategory[] = [
     description: 'Integrated otolaryngology examination workstations, motorized patient chairs, and clinical tympanometry.',
     badge: 'Otolaryngology',
     equipmentList: [
-      'Integrated ENT Diagnostic & Treatment Workstation',
-      'Motorized Ergonomic ENT Patient Examination Chair',
-      'Digital Clinical Impedance Tympanometer',
-      'HD Fiberoptic Flexible ENT Laryngoscope'
+      'ENT 4K Ultra HD Video Endoscopy System',
+      'Acoustic Soundproof Audiometric Testing Booth',
+      'Digital Two-Channel Clinical Diagnostic Audiometer',
+      'All-in-One Integrated ENT OPD Treatment Unit',
+      'Precision Optical ENT Operating Surgical Microscope',
+      'HD Flexible Fiberoptic Nasopharyngoscope',
+      'Wireless High-Intensity Medical & Surgical LED Headlamp',
+      'Digital Diagnostic Middle Ear Impedance Tympanometer',
+      'Integrated Wall-Mounted ENT Diagnostic Center'
     ]
   },
   {
@@ -285,7 +290,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'RAD-US8000',
     badge: 'Flagship Doppler',
     warrantyYears: 3,
-    image: '/Products/Color Doppler Ultrasound Workstation.jpg',
+    image: '/Products/radiology/color-doppler-ultrasound-workstation.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016', 'US-FDA 510(k)'],
     applications: ['Abdominal Radiology', 'Vascular Assessment', 'Cardiology Doppler', 'OB/GYN Scanning'],
     features: [
@@ -312,7 +317,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'RAD-DR650',
     badge: 'High Frequency',
     warrantyYears: 3,
-    image: '/Products/Digital Radiography DR X-Ray System.jpg',
+    image: '/Products/radiology/digital-radiography-dr-x-ray-system.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'AERB Approved'],
     applications: ['General Hospital Radiography', 'Orthopedic Imaging', 'Chest Radiography', 'Trauma Emergency'],
     features: [
@@ -339,7 +344,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'CR-VITA70',
     badge: 'Compact CR',
     warrantyYears: 2,
-    image: '/Products/Computed Radiography CR Laser Digitizer Scanner.jpg',
+    image: '/Products/radiology/computed-radiography-cr-laser-digitizer-scanner.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016'],
     applications: ['Diagnostic Clinics', 'Secondary Radiology Suites', 'Mobile Health Camps', 'Veterinary & Dental'],
     features: [
@@ -366,7 +371,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'MAMMO-TECH 500',
     badge: 'Ultra Low Dose',
     warrantyYears: 3,
-    image: '/Products/Full-Field Digital Mammography System.jpg',
+    image: '/Products/radiology/full-field-digital-mammography-system.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'US-FDA Cleared'],
     applications: ['Breast Cancer Screening', 'Diagnostic Mammography', 'Maternal Health Clinics', 'Women Wellness'],
     features: [
@@ -397,7 +402,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'MPM-1200',
     badge: 'Clinical Grade',
     warrantyYears: 3,
-    image: '/Products/Patient Monitors.jpg',
+    image: '/Products/cardiology/patient-monitors.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'IEC 60601-1'],
     applications: ['Intensive Care ICU', 'Operation Theatre', 'Emergency Trauma', 'Cardiac Care CCU'],
     features: [
@@ -424,7 +429,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'CARDIO-7-12CH',
     badge: 'Diagnostic Flagship',
     warrantyYears: 3,
-    image: '/Products/Bionet Cardio - 7 12 - Channel ECG Machine.jpg',
+    image: '/Products/cardiology/bionet-cardio-7-12-channel-ecg-machine.jpg',
     certifications: ['CE 0123', 'US-FDA 510(k)', 'ISO 13485'],
     applications: ['Cardiology Clinics', 'Emergency Department', 'ICU Diagnostics', 'Health Checkups'],
     features: [
@@ -451,7 +456,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'PM-7000T',
     badge: 'Touchscreen',
     warrantyYears: 2,
-    image: '/Products/7-inch touch screen patient monitor.jpg',
+    image: '/Products/cardiology/7-inch-touch-screen-patient-monitor.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016'],
     applications: ['Critical Care ICU', 'Emergency Transport', 'General Wards', 'Post-Op Recovery'],
     features: [
@@ -478,7 +483,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'MED-DEFIB-360B',
     badge: 'Life Support',
     warrantyYears: 3,
-    image: '/Products/Biphasic Defibrillator and External Pacemaker Monitor.jpg',
+    image: '/Products/cardiology/biphasic-defibrillator-and-external-pacemaker-monitor.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-2-4'],
     applications: ['Cardiac Resuscitation CCU', 'Emergency Trauma ER', 'Ambulance Transport', 'Cath Lab'],
     features: [
@@ -509,7 +514,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: '39485-AS11',
     badge: 'Connected CPAP',
     warrantyYears: 2,
-    image: '/Products/AirSense 11 AutoSetTRI 4G.jpg',
+    image: '/Products/respiratory/airsense-11-autosettri-4g.jpg',
     certifications: ['CE Mark', 'US-FDA 510(k)', 'ISO 13485'],
     applications: ['Obstructive Sleep Apnea (OSA)', 'Homecare Respiratory', 'Sleep Clinics', 'Pulmonary Care'],
     features: [
@@ -536,7 +541,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'BIO-SUCT-20P',
     badge: 'Heavy Duty',
     warrantyYears: 2,
-    image: '/Products/BIO PLUS Portable Suction Machine.jpg',
+    image: '/Products/respiratory/bio-plus-portable-suction-machine.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'GMP Certified'],
     applications: ['Emergency Airway Aspiration', 'Post-Surgical Care', 'Tracheostomy Nursing', 'General Wards'],
     features: [
@@ -563,7 +568,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: '7A-23A',
     badge: 'Dual Jar System',
     warrantyYears: 2,
-    image: '/Products/Yuwell 7A-23A Electric Suction Apparatus.jpg',
+    image: '/Products/respiratory/yuwell-7a-23a-electric-suction-apparatus.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016'],
     applications: ['Surgical Operation Theatre', 'Hospital Wards', 'Emergency Rooms', 'Endoscopy Suites'],
     features: [
@@ -590,7 +595,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: '8F-5A/5AW',
     badge: '93% Medical Purity',
     warrantyYears: 3,
-    image: '/Products/Yuwell 8F-5A  8F-5AW 5-Liter Oxygen Concentrator.jpg',
+    image: '/Products/respiratory/yuwell-8f-5a-8f-5aw-5-liter-oxygen-concentrator.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'TUV Rheinland'],
     applications: ['COPD Oxygen Therapy', 'Respiratory Care Wards', 'Homecare Recovery', 'Emergency Clinics'],
     features: [
@@ -621,7 +626,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'OT-HYDRA-900',
     badge: 'Universal OT',
     warrantyYears: 3,
-    image: '/Products/electro-hydraulic  electric surgical operating table.jpg',
+    image: '/Products/icu-ot/electro-hydraulic-electric-surgical-operating-table.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-1'],
     applications: ['General Laparoscopic Surgery', 'Orthopedic Surgery', 'Cardiothoracic Surgery', 'Neurosurgery'],
     features: [
@@ -652,7 +657,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'OPT-TRI-4K',
     badge: 'Infinity Optics',
     warrantyYears: 3,
-    image: '/Products/digital trinocular compound microscope.jpg',
+    image: '/Products/laboratory/digital-trinocular-compound-microscope.jpg',
     certifications: ['CE Mark', 'ISO 9001', 'ISO 13485'],
     applications: ['Clinical Pathology', 'Hematology Smears', 'Cytology & Histology', 'Microbiology Labs'],
     features: [
@@ -679,7 +684,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'HEMAFLOW DX-5',
     badge: '5-Part Differential',
     warrantyYears: 3,
-    image: '/Products/Automated 5-Part Differential Hematology Analyzer.jpg',
+    image: '/Products/laboratory/automated-5-part-differential-hematology-analyzer.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IVD Certified'],
     applications: ['Hospital Pathology Labs', 'Diagnostic Blood Centers', 'Oncology Clinics', 'Pediatric Blood Screening'],
     features: [
@@ -706,7 +711,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'BIOLAB C-CHEM 500',
     badge: 'Automated Chem',
     warrantyYears: 3,
-    image: '/Products/Fully Automated Clinical Chemistry Analyzer.jpg',
+    image: '/Products/laboratory/fully-automated-clinical-chemistry-analyzer.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016', 'IVD Directive'],
     applications: ['Liver Function Tests (LFT)', 'Renal Profiles (KFT)', 'Lipid Panels', 'Electrolytes & Enzymes'],
     features: [
@@ -733,7 +738,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'H-15R CENTRI',
     badge: 'Refrigerated 15K',
     warrantyYears: 2,
-    image: '/Products/High-Speed Refrigerated Laboratory Centrifuge.jpg',
+    image: '/Products/laboratory/high-speed-refrigerated-laboratory-centrifuge.jpg',
     certifications: ['CE Mark', 'ISO 9001', 'ISO 13485'],
     applications: ['Serum & Plasma Separation', 'PCR & Molecular Biology', 'Cell Harvesting', 'Blood Banking'],
     features: [
@@ -764,7 +769,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'VOLU-GYN 4D',
     badge: 'HD Live 4D',
     warrantyYears: 3,
-    image: '/Products/4D HD Live Obstetric and Gynecology Ultrasound System.jpg',
+    image: '/Products/gynecology/4d-hd-live-obstetric-and-gynecology-ultrasound-system.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016', 'FDA 510(k)'],
     applications: ['Fetal Anatomy Screening', 'First Trimester Nuchal Translucency', 'Gynecological Pelvic Scanning', 'IVF Folliculometry'],
     features: [
@@ -791,7 +796,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'FETAWAVE CTG-9',
     badge: 'Twin Fetal CTG',
     warrantyYears: 3,
-    image: '/Products/Dual-Channel Twin Fetal Monitor CTG.jpg',
+    image: '/Products/gynecology/dual-channel-twin-fetal-monitor-ctg.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-1'],
     applications: ['Antepartum Clinics', 'Labor & Delivery Suites', 'High-Risk Pregnancy Wards', 'Maternity Hospitals'],
     features: [
@@ -818,7 +823,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'FD-200 PRO',
     badge: 'Handheld Doppler',
     warrantyYears: 2,
-    image: '/Products/Handheld Ultrasonic Fetal Doppler.jpg',
+    image: '/Products/gynecology/handheld-ultrasonic-fetal-doppler.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'RoHS'],
     applications: ['OB/GYN Outpatient Clinics', 'Midwife Practices', 'Maternal Checkups', 'Home Pregnancy Care'],
     features: [
@@ -845,7 +850,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'OB-LDR-700',
     badge: 'Electric Birthing Bed',
     warrantyYears: 3,
-    image: '/Products/Multi-Function Electric Obstetric Delivery Bed.jpg',
+    image: '/Products/gynecology/multi-function-electric-obstetric-delivery-bed.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-2-52'],
     applications: ['Hospital Labor & Delivery Rooms', 'Maternity Wards', 'Gynecological Examination', 'Postpartum Recovery'],
     features: [
@@ -876,7 +881,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'ENDO-4K TOWER',
     badge: '4K Ultra HD',
     warrantyYears: 3,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
+    image: '/Products/endoscopy/4k-ultra-hd-video-endoscopy-tower-system.jpg',
     certifications: ['CE 0123', 'ISO 13485:2016', 'IEC 60601-2-18'],
     applications: ['Laparoscopic Cholecystectomy', 'Arthroscopy', 'Urological Resection', 'Thoracoscopy'],
     features: [
@@ -903,7 +908,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'INSUF-40L PRO',
     badge: '40L High Flow',
     warrantyYears: 3,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
+    image: '/Products/endoscopy/4k-ultra-hd-video-endoscopy-tower-system.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'IEC 60601-1'],
     applications: ['Advanced Laparoscopic Surgery', 'Gynecological Laparoscopy', 'Robotic Surgery', 'Pediatric Endoscopy'],
     features: [
@@ -930,7 +935,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'HYST-PRO 30',
     badge: 'Sapphire Optics',
     warrantyYears: 2,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
+    image: '/Products/endoscopy/4k-ultra-hd-video-endoscopy-tower-system.jpg',
     certifications: ['CE 0123', 'ISO 13485'],
     applications: ['Diagnostic Hysteroscopy', 'Endometrial Polypectomy', 'Submucosal Myomectomy', 'Infertility Workups'],
     features: [
@@ -946,150 +951,256 @@ export const PRODUCTS_DATA: ProductItem[] = [
       { label: 'Working Channels', value: '5 Fr & 7 Fr Instrument Channels' }
     ]
   },
-  {
-    id: 'prod-led-light-source',
-    name: 'Medical High-Intensity LED Endoscopy Light Source',
-    category: 'endoscopy',
-    categoryName: 'Endoscopy & Laparoscopy',
-    relatedDepartments: ['endoscopy', 'ent'],
-    tagline: '300W equivalent cold white medical LED illumination module for rigid and flexible endoscopy',
-    description: 'Ultra-bright 80W cold LED surgical light generator delivering pure 6500K daylight-spectrum illumination with universal turret adapting to Storz, Olympus, Wolf, and ACMI cables.',
-    modelNumber: 'LED-LUX 300',
-    badge: '50,000h Life',
-    warrantyYears: 3,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
-    certifications: ['CE Mark', 'ISO 13485', 'IEC 60601-1'],
-    applications: ['Laparoscopy OT', 'Arthroscopy', 'ENT Endoscopy', 'Cystoscopy Suites'],
-    features: [
-      'High-luminance solid-state LED emitter delivering over 2,000,000 Lux brightness',
-      'Color rendering index (CRI) = 92 for faithful true-to-life tissue distinction',
-      'Multi-port universal cable turret compatible with all major fiberoptic brand connectors',
-      'Whisper-quiet thermostatic fan cooling with intelligent heat sink management'
-    ],
-    fullSpecs: [
-      { label: 'Color Temperature', value: '6500 K Pure Daylight Spectrum' },
-      { label: 'Luminous Flux', value: '> 2,000,000 Lux Output Intensity' },
-      { label: 'LED Lifespan', value: '= 50,000 Hours (Zero Bulb Replacement)' },
-      { label: 'Turret Adaptors', value: 'Storz, Olympus, Wolf, ACMI Universal Ports' }
-    ]
-  },
 
   // =========================================================================
-  // 8. ENT EQUIPMENT (4 Products)
+  // 8. ENT EQUIPMENT (9 Products)
   // =========================================================================
   {
-    id: 'prod-ent-workstation',
-    name: 'Integrated ENT Diagnostic & Treatment Workstation',
+    id: 'prod-ent-4k-endoscopy-system',
+    name: 'ENT 4K Ultra HD Video Endoscopy System',
     category: 'ent',
     categoryName: 'ENT Equipment',
-    relatedDepartments: ['ent'],
-    tagline: 'Complete otolaryngology clinical unit with integrated suction, spray, mirror defogger, and LED light',
-    description: 'Ergonomic ENT workstation equipped with precision medical vacuum aspiration, positive pressure medication atomizers, pre-heated instrument trays, and endoscopic camera mount.',
-    modelNumber: 'ENT-LUX 5000',
-    badge: 'All-in-One ENT',
+    relatedDepartments: ['ent', 'endoscopy', 'icu-ot'],
+    tagline: 'Ultra-high-definition 4K endoscopic visualization system with integrated LED light source and camera control',
+    description: 'Advanced 4K UHD ENT video endoscopy system engineered for high-precision diagnostic and surgical otolaryngology. Features ultra-sharp 3840x2160 resolution, true-color tissue differentiation, cold LED light source, and real-time surgical recording.',
+    modelNumber: 'ENT-4K-UHD-900',
+    badge: '4K UHD Endoscopy',
     warrantyYears: 3,
-    image: '/Products/Integrated ENT Diagnostic & Treatment Workstation.jpg',
-    certifications: ['CE 0123', 'ISO 13485'],
-    applications: ['Otolaryngology OPD', 'Ear Syringing & Suction', 'Nasal Endoscopic Exams', 'Laryngeal Diagnostics'],
+    image: '/Products/ent/ent-4k-endoscopy-system.jpeg',
+    certifications: ['CE 0123', 'ISO 13485:2016', 'US-FDA Cleared'],
+    applications: ['Functional Endoscopic Sinus Surgery (FESS)', 'Otoscopy & Tympanoplasty', 'Diagnostic Laryngoscopy', 'Skull Base ENT Procedures'],
     features: [
-      'Built-in oil-free high-vacuum suction pump with graduated collection jar',
-      'Integrated medical air compressor with dual fine-mist liquid atomizers',
-      'Automatic instant mirror defogger with timer heater',
-      'High-luminance cold LED illumination source for fiberoptic endoscopes'
+      'Ultra-high-definition 4K 3840x2160 video sensor providing 4x resolution of standard HD',
+      'Integrated cold white LED light source delivering pure 6500K daylight illumination',
+      'One-touch surgical video recording and high-res image capture via USB 3.0',
+      'Multi-specialty camera presets optimized for otology, rhinology, and laryngology'
     ],
     fullSpecs: [
-      { label: 'Suction Capacity', value: '= 0.08 MPa Vacuum (25 L/min Flow)' },
-      { label: 'Compressor Pressure', value: '0.1 to 0.15 MPa Atomizing Pressure' },
-      { label: 'Mirror Pre-Heater', value: '450W Rapid Induction Defogger' },
-      { label: 'Body Construction', value: 'Anti-Bacterial Acrylic Top with Steel Chassis' }
+      { label: 'Display Resolution', value: '4K UHD 3840 x 2160 pixels @ 60 fps' },
+      { label: 'Light Source', value: 'Cold White Medical LED (= 2,000,000 Lux)' },
+      { label: 'Camera Head', value: 'Ergonomic 4K C-mount camera head with programmable remote keys' },
+      { label: 'Outputs', value: 'HDMI 2.0, 12G-SDI, USB 3.0 Capture' }
     ]
   },
   {
-    id: 'prod-ent-chair',
-    name: 'Motorized Ergonomic ENT Patient Examination Chair',
+    id: 'prod-ent-audio-booth',
+    name: 'Acoustic Soundproof Audiometric Testing Booth',
     category: 'ent',
     categoryName: 'ENT Equipment',
     relatedDepartments: ['ent'],
-    tagline: 'Multi-motor electric ENT examination chair with 360-degree rotation and auto-reset',
-    description: 'Heavy-duty electric otolaryngology examination chair featuring quiet linear motors for height, backrest, and leg-rest articulation, plus 360-degree swivel lock.',
-    modelNumber: 'ENT-CHAIR 800',
-    badge: '360° Swivel',
+    tagline: 'Certified double-wall acoustic isolation chamber for accurate clinical hearing assessments',
+    description: 'Engineered soundproof audiometric examination booth designed to eliminate environmental noise during clinical hearing evaluations. Features double-glazed acoustic glass window, quiet forced ventilation, jack panel connectivity, and magnetic seal door.',
+    modelNumber: 'AUDIO-BOOTH-PRO',
+    badge: 'Soundproof Chamber',
     warrantyYears: 3,
-    image: '/Products/Integrated ENT Diagnostic & Treatment Workstation.jpg',
-    certifications: ['CE Mark', 'ISO 13485'],
-    applications: ['ENT Consultations', 'Minor In-Office Procedures', 'Audiology Clinics', 'Endoscopic Exams'],
+    image: '/Products/ent/ent-audio-booth.png',
+    certifications: ['ISO 8253-1', 'CE Mark', 'ISO 13485'],
+    applications: ['Clinical Pure Tone Audiometry', 'Speech Recognition Testing', 'Industrial Hearing Conservation', 'Pediatric Hearing Assessment'],
     features: [
-      'Triple silent linear motors controlling elevation, backrest, and leg sync',
-      '360-degree rotation with mechanical foot brake for precise positioning',
-      'Adjustable and lockable ergonomic headrest designed for ear/throat access',
-      'One-touch automatic zero-reset button for quick patient entry and exit'
+      'Heavy-duty acoustic wall panels with multi-layer sound absorption materials',
+      'Double-glazed safety glass observation window for clear doctor-patient visibility',
+      'Integrated silent forced ventilation system maintaining airflow without background noise',
+      'Pre-wired multi-channel jack panel compatible with all standard audiometers'
     ],
     fullSpecs: [
-      { label: 'Lifting Range', value: '530 mm to 880 mm Silent Electric' },
-      { label: 'Backrest Recline', value: '90° to 180° Flat Table Position' },
-      { label: 'Rotation', value: '360° Swivel with Locking Pedal' },
-      { label: 'Weight Capacity', value: '200 kg Max Patient Load' }
+      { label: 'Acoustic Attenuation', value: '> 40 dB Noise Reduction across 250 Hz - 8000 Hz' },
+      { label: 'Observation Window', value: 'Double-Glazed Acoustic Laminated Glass (600 x 750 mm)' },
+      { label: 'Internal Dimensions', value: '1000 mm x 1000 mm x 2000 mm (W x D x H)' },
+      { label: 'Ventilation', value: 'Whisper-Quiet Silenced Air Exchange Fan System' }
     ]
   },
   {
-    id: 'prod-tympanometer',
-    name: 'Digital Clinical Impedance Tympanometer',
+    id: 'prod-ent-audiometer',
+    name: 'Digital Two-Channel Clinical Diagnostic Audiometer',
     category: 'ent',
     categoryName: 'ENT Equipment',
     relatedDepartments: ['ent'],
-    tagline: 'High-speed diagnostic middle ear tympanometer with acoustic reflex testing and thermal printer',
-    description: 'Fast, automated impedance tympanometer providing 226 Hz probe tone compliance curves, ipsilateral and contralateral acoustic reflex evaluations, and high-contrast digital display.',
-    modelNumber: 'TYMP-PRO 300',
-    badge: 'Clinical Audiometry',
+    tagline: 'Advanced 2-channel pure tone and speech diagnostic audiometer with patient response and PC software',
+    description: 'Precision two-channel clinical audiometer offering air conduction, bone conduction, speech audiometry, and free-field testing capability. Features high-resolution color screen, patient signal button, and seamless electronic medical record (EMR) export.',
+    modelNumber: 'AUDIO-DIAG-700',
+    badge: '2-Channel Diagnostic',
     warrantyYears: 2,
-    image: '/Products/Integrated ENT Diagnostic & Treatment Workstation.jpg',
-    certifications: ['CE 0123', 'ISO 13485', 'IEC 60645-5'],
-    applications: ['Middle Ear Effusion Screening', 'Eustachian Tube Function', 'Otitis Media Diagnostics', 'Pediatric Audiology'],
+    image: '/Products/ent/ent-audiometer.png',
+    certifications: ['CE 0123', 'ISO 13485', 'IEC 60645-1'],
+    applications: ['Diagnostic Hearing Assessment', 'Air & Bone Conduction Testing', 'Speech Audiometry & Masking', 'Hearing Aid Fitting Evaluations'],
     features: [
-      'Ultra-fast automatic tympanometry test cycle completed in under 3 seconds',
-      'Four ipsilateral reflex frequencies (500Hz, 1kHz, 2kHz, 4kHz) with auto-pass threshold',
-      'Lightweight ergonomic probe with multi-color LED seal indicator status',
-      'Internal memory for 100 patient tests with USB PC software sync'
+      'Dual-channel independent tone generators supporting air, bone, and speech conduction',
+      'Frequency range from 125 Hz to 8000 Hz with intensity steps from -10 dB to 120 dB HL',
+      'Integrated patient response switch and talk-forward/talk-back communication',
+      'Internal database storing over 500 patient test curves with USB PC synchronization'
+    ],
+    fullSpecs: [
+      { label: 'Frequency Range', value: '125 Hz to 8000 Hz (11 Standard Frequencies)' },
+      { label: 'Air Conduction Range', value: '-10 dB to 120 dB HL' },
+      { label: 'Bone Conduction Range', value: '-10 dB to 80 dB HL' },
+      { label: 'Masking Types', value: 'Narrow Band Noise, White Noise, Speech Noise' }
+    ]
+  },
+  {
+    id: 'prod-ent-opd-unit',
+    name: 'All-in-One Integrated ENT OPD Treatment Unit',
+    category: 'ent',
+    categoryName: 'ENT Equipment',
+    relatedDepartments: ['ent'],
+    tagline: 'Ergonomic otolaryngology examination workstation with built-in suction, spray, and instrument heating',
+    description: 'Comprehensive ENT outpatient department (OPD) treatment workstation designed for efficient clinical examinations. Equipped with oil-free vacuum suction, positive-pressure liquid atomizers, rapid mirror defogger, cold LED light source, and antibacterial acrylic countertop.',
+    modelNumber: 'OPD-LUX-500',
+    badge: 'All-in-One OPD',
+    warrantyYears: 3,
+    image: '/Products/ent/ent-opd-unit.jpeg',
+    certifications: ['CE 0123', 'ISO 13485:2016'],
+    applications: ['ENT Outpatient Consultation', 'Ear Syringing & Suction Aspiration', 'Nasal & Throat Medication Spray', 'Endoscopic Mirror Examination'],
+    features: [
+      'Powerful oil-free medical vacuum pump with 2500ml graduated suction jar',
+      'Dual liquid spray atomizers with adjustable fine-mist pressure regulator',
+      'Rapid induction mirror pre-heater preventing condensation during laryngeal exams',
+      'Anti-bacterial seamless acrylic work surface with integrated instrument drawers'
+    ],
+    fullSpecs: [
+      { label: 'Suction Vacuum', value: '-0.08 MPa Max Vacuum (25 L/min Flow)' },
+      { label: 'Atomizer Pressure', value: '0.1 to 0.15 MPa Stepless Adjustment' },
+      { label: 'Mirror Defogger', value: '450W Instant Induction Pre-Heater' },
+      { label: 'Chassis', value: 'Heavy-Duty Powder-Coated Steel with Smooth Swivel Casters' }
+    ]
+  },
+  {
+    id: 'prod-ent-surgical-microscope',
+    name: 'Precision Optical ENT Operating Surgical Microscope',
+    category: 'ent',
+    categoryName: 'ENT Equipment',
+    relatedDepartments: ['ent', 'icu-ot'],
+    tagline: 'High-magnification surgical microscope with LED coaxial illumination and 5-step magnification changer',
+    description: 'State-of-the-art otolaryngology operating microscope engineered for delicate microsurgical procedures of the ear, nose, and throat. Features German optical lenses, 5-step Galilean changer, coaxial cold LED illumination, and counter-balanced floor stand.',
+    modelNumber: 'MICRO-ENT-3000',
+    badge: 'Surgical Precision',
+    warrantyYears: 3,
+    image: '/Products/ent/ent-surgical-microscope.jpg',
+    certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-1'],
+    applications: ['Myringotomy & Grommet Insertion', 'Tympanoplasty & Stapedectomy', 'Endonasal Microsurgery', 'Laryngeal Micro-Flap Surgery'],
+    features: [
+      'German high-resolution achromatic optical lens system delivering exceptional depth of field',
+      '5-step Galilean magnification changer (0.4x, 0.6x, 1.0x, 1.6x, 2.5x)',
+      'High-intensity coaxial LED illumination delivering clear, shadow-free deep cavity illumination',
+      'Smooth-articulating spring-balanced arm with electromagnetic magnetic brake system'
+    ],
+    fullSpecs: [
+      { label: 'Magnification Changer', value: '5-Step Manual Galilean Drum' },
+      { label: 'Working Distance', value: 'F=200mm, F=250mm, F=300mm Objective Lenses' },
+      { label: 'Binocular Tube', value: '45° Fixed / 0° to 180° Inclinable Binocular Tube' },
+      { label: 'Illumination', value: 'Coaxial 80W LED (100,000 Lux Light Intensity)' }
+    ]
+  },
+  {
+    id: 'prod-flexible-nasopharyngoscope',
+    name: 'HD Flexible Fiberoptic Nasopharyngoscope',
+    category: 'ent',
+    categoryName: 'ENT Equipment',
+    relatedDepartments: ['ent'],
+    tagline: 'Ultra-slim 3.4mm flexible video-compatible nasopharyngoscope with wide-angle deflection',
+    description: 'Slim insertion fiberoptic nasopharyngoscope engineered for pediatric and adult upper airway evaluation. Features ultra-thin 3.4mm insertion tube, high-density 18,000-pixel optical fiber bundle, 130-degree two-way tip deflection, and waterproof submersible body.',
+    modelNumber: 'FIBER-NASO-34',
+    badge: '3.4mm Ultra-Slim',
+    warrantyYears: 2,
+    image: '/Products/ent/flexible-nasopharyngoscope.jpeg',
+    certifications: ['CE Mark', 'ISO 13485'],
+    applications: ['Nasopharyngeal Airway Examination', 'Vocal Cord Mobility Evaluation', 'Swallowing Assessment (FEES)', 'Pediatric ENT Diagnostics'],
+    features: [
+      'Ultra-slim 3.4mm outer diameter for maximum patient comfort during insertion',
+      'High-density 18,000 pixel glass fiber bundle ensuring bright, high-resolution view',
+      'Wide tip deflection (130° Up / 130° Down) for smooth anatomical navigation',
+      'Fully waterproof design compatible with standard enzymatic liquid immersion'
+    ],
+    fullSpecs: [
+      { label: 'Insertion Tube Diameter', value: '3.4 mm' },
+      { label: 'Working Length', value: '300 mm' },
+      { label: 'Bending Range', value: 'Up 130° / Down 130°' },
+      { label: 'Field of View', value: '85° Wide Angle with 3-50mm Depth of Field' }
+    ]
+  },
+  {
+    id: 'prod-led-headlamp',
+    name: 'Wireless High-Intensity Medical & Surgical LED Headlamp',
+    category: 'ent',
+    categoryName: 'ENT Equipment',
+    relatedDepartments: ['ent', 'icu-ot'],
+    tagline: 'Lightweight rechargeable LED headlamp with homogeneous spot adjustment and flip-up loupes',
+    description: 'Ergonomic wireless medical LED headlamp delivering bright, uniform 6000K daylight-spectrum spot illumination for ENT examinations and minor surgical procedures. Features lightweight padded headband, dual rechargeable lithium batteries, and adjustable spot diameter.',
+    modelNumber: 'LED-HEAD-PRO',
+    badge: 'Wireless LED',
+    warrantyYears: 2,
+    image: '/Products/ent/led-medical-and-surgical-headlamp.jpg',
+    certifications: ['CE Mark', 'ISO 13485', 'RoHS'],
+    applications: ['ENT Outpatient Examinations', 'Minor Surgical Procedures', 'Emergency Room Triage', 'Operating Room Co-Illumination'],
+    features: [
+      'High-power LED emitter providing over 55,000 Lux crisp daylight illumination',
+      'Continuously adjustable optical iris for spot size control (10mm to 110mm)',
+      'Ultra-lightweight ergonomic headband with soft washable leather forehead padding',
+      'Dual quick-swap rechargeable lithium battery packs providing up to 8 hours total runtime'
+    ],
+    fullSpecs: [
+      { label: 'Illumination Spot Size', value: '10 mm to 110 mm at 420 mm Working Distance' },
+      { label: 'Light Intensity', value: '> 55,000 Lux at 200 mm' },
+      { label: 'Color Temperature', value: '6000 K Pure Daylight' },
+      { label: 'Battery Runtime', value: '4 Hours per Battery Pack (2 Batteries Included)' }
+    ]
+  },
+  {
+    id: 'prod-tympanometer-digital',
+    name: 'Digital Diagnostic Middle Ear Impedance Tympanometer',
+    category: 'ent',
+    categoryName: 'ENT Equipment',
+    relatedDepartments: ['ent'],
+    tagline: 'High-speed clinical tympanometer with acoustic reflex testing and built-in thermal printer',
+    description: 'Fast, automated middle ear impedance tympanometer offering 226 Hz probe tone compliance curves, ipsilateral/contralateral acoustic reflex assessments, high-resolution LCD display, and instant thermal graphic printout.',
+    modelNumber: 'TYMP-DIAG-300',
+    badge: 'Clinical Tympanometry',
+    warrantyYears: 2,
+    image: '/Products/ent/tympanometer.png',
+    certifications: ['CE 0123', 'ISO 13485', 'IEC 60645-5'],
+    applications: ['Otitis Media & Effusion Screening', 'Eustachian Tube Function Testing', 'Tympanic Membrane Evaluation', 'Pediatric Hearing Screening'],
+    features: [
+      'Rapid automatic tympanogram test cycle completed in under 3 seconds per ear',
+      'Integrated 4-frequency ipsilateral acoustic reflex testing (500Hz, 1kHz, 2kHz, 4kHz)',
+      'Ergonomic lightweight probe handle with multi-color LED seal indicator ring',
+      'Onboard thermal printer for immediate patient graph printouts'
     ],
     fullSpecs: [
       { label: 'Probe Tone', value: '226 Hz +/- 1% at 85 dB SPL' },
       { label: 'Pressure Range', value: '-400 to +200 daPa with Auto-Safety Release' },
-      { label: 'Compliance Range', value: '0.1 to 8.0 ml' },
-      { label: 'Printer Output', value: 'High-Speed Thermal Graphic Printout' }
+      { label: 'Volume Range', value: '0.1 to 8.0 ml (+/- 5% Accuracy)' },
+      { label: 'Display & Printer', value: 'High-Contrast Screen with Integrated Thermal Graphic Printer' }
     ]
   },
   {
-    id: 'prod-ent-endoscope',
-    name: 'HD Fiberoptic Flexible ENT Laryngoscope',
+    id: 'prod-wall-diagnostic-set',
+    name: 'Integrated Wall-Mounted ENT Diagnostic Center',
     category: 'ent',
     categoryName: 'ENT Equipment',
     relatedDepartments: ['ent'],
-    tagline: 'Slim 3.4mm flexible nasopharyngoscope with high-density optical fiber bundle and wide angulation',
-    description: 'Slim-insertion flexible video-compatible nasolaryngoscope designed for comfortable pediatric and adult upper airway visualization with 130-degree two-way tip deflection.',
-    modelNumber: 'FIBER-ENT 34',
-    badge: '3.4mm Slim',
-    warrantyYears: 2,
-    image: '/Products/Integrated ENT Diagnostic & Treatment Workstation.jpg',
+    tagline: 'Modular wall station with fiberoptic otoscope, ophthalmoscope, infrared thermometer, and spiral cords',
+    description: 'Wall-mounted clinical diagnostic workstation featuring LED fiberoptic otoscope, coaxial ophthalmoscope, non-contact infrared thermometer, and specula dispenser. Designed for hospital consultation rooms and ENT clinics.',
+    modelNumber: 'WALL-DIAG-900',
+    badge: 'Wall Station',
+    warrantyYears: 3,
+    image: '/Products/ent/wall-mounted-diagnostic-set.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
-    applications: ['Vocal Cord Assessment', 'Nasopharyngeal Carcinoma Screening', 'Dysphagia Swallowing Exams', 'Pediatric Airway'],
+    applications: ['Hospital Examination Rooms', 'ENT Outpatient Clinics', 'Urgent Care Centers', 'Pediatric Consultations'],
     features: [
-      'Ultra-thin 3.4mm insertion tube outer diameter for minimal patient discomfort',
-      'High-resolution 18,000 pixel fiber bundle offering bright, sharp field of view',
-      'Wide tip deflection (130° Up / 130° Down) for smooth anatomical navigation',
-      'Fully submersible and waterproof for standard clinical enzymatic soaking'
+      'Central wall power station with automatic magnetic handle switches (auto-on when lifted)',
+      'Fiberoptic LED otoscope with 3X magnification lens and pneumatic tympanic port',
+      'Coaxial LED ophthalmoscope with 28 diagnostic lenses (-35D to +40D)',
+      'Coiled expandable handle cords extending up to 3 meters with soft-grip handles'
     ],
     fullSpecs: [
-      { label: 'Outer Diameter', value: '3.4 mm Insertion Tube' },
-      { label: 'Working Length', value: '300 mm Flexible Section' },
-      { label: 'Bending Range', value: 'Up 130° / Down 130° Dual-Direction' },
-      { label: 'Field of View', value: '85° Wide Angle with 3-50mm Depth of Field' }
+      { label: 'Power Supply', value: '100V - 240V AC Mains Constant Voltage Handle Module' },
+      { label: 'Otoscope Optics', value: 'Fiberoptic Distal Illumination with 3X Swivel Window' },
+      { label: 'Ophthalmoscope Apertures', value: 'Small/Large Spot, Slit, Red-Free Filter, Fixation Star' },
+      { label: 'Thermometer Module', value: 'Non-Contact Infrared Forehead / Ear Temperature Sensor' }
     ]
   },
 
-
   // =========================================================================
   // 10. PHYSIOTHERAPY (4 Products)
-  // =========================================================================
   {
     id: 'prod-physio-ultrasound',
     name: 'Dual-Frequency Clinical Ultrasound Therapy System',
@@ -1101,7 +1212,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'US-THERAPY 500',
     badge: '1 & 3 MHz Dual',
     warrantyYears: 2,
-    image: '/Products/Color Doppler Ultrasound Workstation.jpg',
+    image: '/Products/physiotherapy/color-doppler-ultrasound-workstation.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'IEC 60601-2-5'],
     applications: ['Tendinitis & Bursitis', 'Muscle Spasms & Tightness', 'Joint Contractures', 'Sports Injury Rehab'],
     features: [
@@ -1128,7 +1239,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'STIM-400 PRO',
     badge: '4-Channel IFT',
     warrantyYears: 2,
-    image: '/Products/Bionet Cardio - 7 12 - Channel ECG Machine.jpg',
+    image: '/Products/physiotherapy/bionet-cardio-7-12-channel-ecg-machine.jpg',
     certifications: ['CE 0123', 'ISO 13485'],
     applications: ['Post-Op Pain Management', 'Neuromuscular Re-Education', 'Interferential Therapy (IFT)', 'Chronic Sciatica'],
     features: [
@@ -1155,7 +1266,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'HILT-15W PLUS',
     badge: '15W Class IV',
     warrantyYears: 3,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
+    image: '/Products/physiotherapy/4k-ultra-hd-video-endoscopy-tower-system.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'FDA Cleared'],
     applications: ['Spinal Disc Herniation', 'Arthritis Pain Relief', 'Plantar Fasciitis', 'Athletic Soft Tissue Trauma'],
     features: [
@@ -1182,7 +1293,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'TRAC-SPINE 900',
     badge: 'Spinal Decompression',
     warrantyYears: 3,
-    image: '/Products/Multi-Function Electric Obstetric Delivery Bed.jpg',
+    image: '/Products/physiotherapy/multi-function-electric-obstetric-delivery-bed.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'IEC 60601-1'],
     applications: ['Lumbar Disc Herniation', 'Cervical Spondylosis', 'Sciatica Decompression', 'Spinal Facet Syndrome'],
     features: [
@@ -1213,7 +1324,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'NICU-INC 8000',
     badge: 'Servo Humidity',
     warrantyYears: 3,
-    image: '/Products/Advanced Neonatal Intensive Care Incubator.jpg',
+    image: '/Products/neonatal/advanced-neonatal-intensive-care-incubator.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-2-19'],
     applications: ['Premature Infant Care', 'Neonatal Intensive Care NICU', 'Thermoregulation Support', 'Infection Isolation'],
     features: [
@@ -1240,7 +1351,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'WARM-CARE 500',
     badge: 'Resuscitation Station',
     warrantyYears: 3,
-    image: '/Products/Overhead Infant Radiant Warmer with Resuscitation.jpg',
+    image: '/Products/neonatal/overhead-infant-radiant-warmer-with-resuscitation.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-2-21'],
     applications: ['Labor & Delivery NICU Triage', 'Newborn Resuscitation', 'Postnatal Warming', 'Minor Infant Surgery'],
     features: [
@@ -1267,7 +1378,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'BILI-LUX LED',
     badge: '450-470nm Blue',
     warrantyYears: 2,
-    image: '/Products/Microprocessor LED Phototherapy Jaundice Unit.jpg',
+    image: '/Products/neonatal/microprocessor-led-phototherapy-jaundice-unit.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Neonatal Jaundice Treatment', 'Hyperbilirubinemia Management', 'NICU & Postnatal Wards'],
     features: [
@@ -1294,7 +1405,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'BUBBLE-VENT 200',
     badge: 'Non-Invasive RDS',
     warrantyYears: 2,
-    image: '/Products/Infant Bubble CPAP Non-Invasive Respiratory System.jpg',
+    image: '/Products/neonatal/infant-bubble-cpap-non-invasive-respiratory-system.jpg',
     certifications: ['CE 0123', 'ISO 13485'],
     applications: ['Neonatal Respiratory Distress (RDS)', 'Meconium Aspiration', 'Post-Extubation Support', 'Apnea of Prematurity'],
     features: [
@@ -1325,7 +1436,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'DENT-SUITE 9000',
     badge: 'Luxury Dental Suite',
     warrantyYears: 3,
-    image: '/Products/Ergonomic Hydraulic Dental Chair Treatment Unit.jpg',
+    image: '/Products/dental/ergonomic-hydraulic-dental-chair-treatment-unit.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-1'],
     applications: ['General Dentistry', 'Endodontics & Crowns', 'Periodontal Scaling', 'Oral & Maxillofacial Surgery'],
     features: [
@@ -1352,7 +1463,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'DENT-3D OPG',
     badge: '3D CBCT & OPG',
     warrantyYears: 3,
-    image: '/Products/Digital Panoramic Dental OPG & CBCT System.jpg',
+    image: '/Products/dental/digital-panoramic-dental-opg-and-cbct-system.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'US-FDA Cleared'],
     applications: ['Dental Implant Planning', 'Orthodontic Cephalometry', 'Impacted Wisdom Teeth', 'TMJ & Sinus Imaging'],
     features: [
@@ -1379,7 +1490,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'X-DENT RVG-2',
     badge: 'Instant Digital RVG',
     warrantyYears: 2,
-    image: '/Products/High-Frequency Dental Intraoral X-Ray & RVG Sensor.jpg',
+    image: '/Products/dental/high-frequency-dental-intraoral-x-ray-and-rvg-sensor.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Endodontic Root Canal Therapy', 'Caries Detection', 'Periapical Pathology', 'Crown Seating Checks'],
     features: [
@@ -1406,7 +1517,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'STERI-VAC 23B',
     badge: 'Class-B EN13060',
     warrantyYears: 2,
-    image: '/Products/Class-B Vacuum Dental Autoclave & Sterilizer.jpg',
+    image: '/Products/dental/class-b-vacuum-dental-autoclave-and-sterilizer.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'EN 13060 Standard'],
     applications: ['Dental Handpieces & Burs', 'Surgical Implant Kits', 'Orthodontic Pliers', 'Porous Cotton Packs'],
     features: [
@@ -1437,7 +1548,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'LASER-DERM 3W',
     badge: 'Triple Wave Diode',
     warrantyYears: 2,
-    image: '/Products/4K Ultra HD Video Endoscopy Tower System.jpg',
+    image: '/Products/dermatology/4k-ultra-hd-video-endoscopy-tower-system.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'FDA Cleared'],
     applications: ['Permanent Hair Reduction', 'Skin Rejuvenation', 'Pseudofolliculitis Barbae', 'Vascular Lesions'],
     features: [
@@ -1464,7 +1575,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'CRYO-DERM 500',
     badge: 'Liquid Nitrogen',
     warrantyYears: 2,
-    image: '/Products/Yuwell 7A-23A Electric Suction Apparatus.jpg',
+    image: '/Products/dermatology/yuwell-7a-23a-electric-suction-apparatus.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Wart & Verruca Removal', 'Actinic Keratosis', 'Skin Tag Cryo-Destruction', 'Basal Cell Carcinoma'],
     features: [
@@ -1491,7 +1602,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'DERMA-SCAN 10X',
     badge: 'Polarized 10X',
     warrantyYears: 2,
-    image: '/Products/digital trinocular compound microscope.jpg',
+    image: '/Products/dermatology/digital-trinocular-compound-microscope.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Melanoma Early Detection', 'Dysplastic Nevi Mapping', 'Trichoscopy Hair Exams', 'Inflammatory Dermatoses'],
     features: [
@@ -1518,7 +1629,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'UVB-CABIN 311',
     badge: '311nm NB-UVB',
     warrantyYears: 3,
-    image: '/Products/Microprocessor LED Phototherapy Jaundice Unit.jpg',
+    image: '/Products/dermatology/microprocessor-led-phototherapy-jaundice-unit.jpg',
     certifications: ['CE 0123', 'ISO 13485'],
     applications: ['Severe Psoriasis Plaque', 'Vitiligo Repigmentation', 'Atopic Dermatitis / Eczema', 'Mycosis Fungoides'],
     features: [
@@ -1554,7 +1665,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'SLIT-PRO 500',
     badge: '5-Step Galilean',
     warrantyYears: 3,
-    image: '/Products/High-Resolution Digital Slit Lamp Biomicroscope.jpg',
+    image: '/Products/ophthalmic/high-resolution-digital-slit-lamp-biomicroscope.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-1'],
     applications: ['Corneal Pathology', 'Cataract Grading', 'Anterior Segment Slit Imaging', 'Contact Lens Fitting'],
     features: [
@@ -1581,7 +1692,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'ARK-AUTOFOCUS 9',
     badge: '3D Auto-Tracking',
     warrantyYears: 2,
-    image: '/Products/Computerized Auto Refractometer & Keratometer.jpg',
+    image: '/Products/ophthalmic/computerized-auto-refractometer-and-keratometer.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Refractive Error Screening', 'Astigmatism Assessment', 'Contact Lens Base Curve', 'Pre-LASIK Workup'],
     features: [
@@ -1608,7 +1719,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'OPHTHA-SONO 300',
     badge: 'A/B Scan Biometer',
     warrantyYears: 2,
-    image: '/Products/Ophthalmic AB Scan Ultrasound Diagnostic System.jpg',
+    image: '/Products/ophthalmic/ophthalmic-ab-scan-ultrasound-diagnostic-system.jpg',
     certifications: ['CE 0123', 'ISO 13485'],
     applications: ['Vitreous Hemorrhage & Retinal Detachment', 'Axial Length Measurement', 'IOL Power Calculation', 'Ocular Tumors'],
     features: [
@@ -1635,7 +1746,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'TONO-AIR 800',
     badge: 'Soft Air-Puff',
     warrantyYears: 2,
-    image: '/Products/Non-Contact Air-Puff Optical Tonometer.jpg',
+    image: '/Products/ophthalmic/non-contact-air-puff-optical-tonometer.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Glaucoma Screening', 'Routine Eye Pressure Checks', 'Post-Op Cataract Monitoring', 'Refractive Surgery Followup'],
     features: [
@@ -1666,7 +1777,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'AL-MOBIL-500',
     badge: 'Ultra Lightweight',
     warrantyYears: 2,
-    image: '/Products/foldable electric power wheelchair.jpg',
+    image: '/Products/rehab-homecare/foldable-electric-power-wheelchair.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'UN38.3 Air Transport Certified'],
     applications: ['Elderly Mobility Assistance', 'Post-Stroke Rehabilitation', 'Paraplegia Support', 'Travel & Airline Transport'],
     features: [
@@ -1693,7 +1804,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'HOIST-LIFT 200',
     badge: 'Electric Hoist',
     warrantyYears: 3,
-    image: '/Products/foldable electric power wheelchair.jpg',
+    image: '/Products/rehab-homecare/foldable-electric-power-wheelchair.jpg',
     certifications: ['CE 0123', 'ISO 13485', 'IEC 60601-1'],
     applications: ['Homecare Bed-to-Chair Transfers', 'Hospital Nursing Wards', 'Rehabilitation Centers', 'Bath & Commode Transfer'],
     features: [
@@ -1720,7 +1831,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'HOME-BED 500E',
     badge: '5-Function Electric',
     warrantyYears: 3,
-    image: '/Products/Multi-Function Electric Obstetric Delivery Bed.jpg',
+    image: '/Products/rehab-homecare/multi-function-electric-obstetric-delivery-bed.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'EN 60601-2-52'],
     applications: ['Long-Term Home Nursing', 'Elderly Palliative Care', 'Post-Operative Convalescence', 'Stroke Rehabilitation'],
     features: [
@@ -1747,7 +1858,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'AIR-CELL 20T',
     badge: 'Stage I-IV Ulcer Care',
     warrantyYears: 2,
-    image: '/Products/Multi-Function Electric Obstetric Delivery Bed.jpg',
+    image: '/Products/rehab-homecare/multi-function-electric-obstetric-delivery-bed.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Bedridden Patient Care', 'ICU Pressure Sore Prevention', 'Stage I-IV Decubitus Ulcers', 'Paralysis Long-Term Nursing'],
     features: [
@@ -1778,7 +1889,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'EVA-M3',
     badge: '3 Motors Electric',
     warrantyYears: 3,
-    image: '/Products/furniture/eva-m3-electric-bed.jpg',
+    image: '/Products/furniture-disposables/eva-m3-electric-bed.jpg',
     certifications: ['CE Certified', 'ISO 13485', 'Quality Assured'],
     applications: ['Hospital Inpatient Wards', 'ICU Patient Rooms', 'Post-Surgical Recovery', 'Long-Term Care'],
     features: [
@@ -1807,7 +1918,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'EVA-M5',
     badge: '5-Function ICU',
     warrantyYears: 3,
-    image: '/Products/furniture/eva-m5-electric-bed.jpg',
+    image: '/Products/furniture-disposables/eva-m5-electric-bed.jpg',
     certifications: ['CE Certified', 'ISO 13485', 'IEC 60601-2-52'],
     applications: ['Intensive Care Unit (ICU)', 'Critical Care Wards', 'Cardiac Care Units', 'Emergency Trauma'],
     features: [
@@ -1836,7 +1947,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'ACE-X2',
     badge: '2-Crank Manual',
     warrantyYears: 2,
-    image: '/Products/furniture/ace-x2-manual-bed.jpg',
+    image: '/Products/furniture-disposables/ace-x2-manual-bed.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['General Inpatient Wards', 'Nursing Homes', 'Outpatient Clinics', 'Rehabilitation Centers'],
     features: [
@@ -1865,7 +1976,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'ACE-X1',
     badge: 'Single Crank',
     warrantyYears: 2,
-    image: '/Products/furniture/ace-x1-manual-bed.jpg',
+    image: '/Products/furniture-disposables/ace-x1-manual-bed.jpg',
     certifications: ['CE Mark', 'ISO 9001'],
     applications: ['General Hospital Wards', 'Sub-Acute Care', 'Homecare Bedrooms', 'Clinic Recovery Rooms'],
     features: [
@@ -1894,7 +2005,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'PHOENIX-75',
     badge: 'Emergency Crash Cart',
     warrantyYears: 3,
-    image: '/Products/furniture/phoenix-75-crash-cart.jpg',
+    image: '/Products/furniture-disposables/phoenix-75-crash-cart.jpg',
     certifications: ['CE Mark', 'ISO 13485', 'Bio-Medical Grade'],
     applications: ['Emergency Rooms (ER)', 'Crash Cart Mobile Response', 'ICU Resuscitation', 'Operating Theatres'],
     features: [
@@ -1923,7 +2034,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'PHLEBO-ASSIST',
     badge: 'Phlebotomy & Blood Draw',
     warrantyYears: 2,
-    image: '/Products/furniture/phlebo-assist-chair.jpg',
+    image: '/Products/furniture-disposables/phlebo-assist-chair.jpg',
     certifications: ['CE Mark', 'ISO 9001'],
     applications: ['Blood Collection Centers', 'Phlebotomy Labs', 'Vitals Examination Rooms', 'Infusion Clinics'],
     features: [
@@ -1952,7 +2063,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'EPSON-L130-DICOM',
     badge: 'DICOM Print Station',
     warrantyYears: 1,
-    image: '/Products/furniture/epson-l130-dicom-printer.jpg',
+    image: '/Products/furniture-disposables/epson-l130-dicom-printer.jpg',
     certifications: ['CE Mark', 'ISO 9001', 'DICOM 3.0 Compliant'],
     applications: ['Radiology Film Printing', 'Ultrasound & X-Ray Reports', 'Outpatient Diagnostic Centers', 'Clinical Imaging Labs'],
     features: [
@@ -1979,7 +2090,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     modelNumber: 'MED-DIALYSIS-CHAIR',
     badge: 'Dialysis & Chemo',
     warrantyYears: 2,
-    image: '/Products/furniture/motorized-dialysis-chair.jpg',
+    image: '/Products/furniture-disposables/motorized-dialysis-chair.jpg',
     certifications: ['CE Mark', 'ISO 13485'],
     applications: ['Hemodialysis Centers', 'Oncology Chemotherapy Wards', 'Blood Transfusion Units', 'Infusion Suites'],
     features: [

@@ -35,7 +35,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
       <div className="absolute bottom-10 -left-32 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl pointer-events-none z-0" />
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0 overflow-hidden">
         <img
-          src="/alpha-facility.jpg"
+          src="/Facility/alpha-facility.jpg"
           alt=""
           className="w-full h-full object-cover filter blur-[1px]"
         />

@@ -12,9 +12,9 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
       {/* Full-width Responsive Background Building Image */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <picture className="w-full h-full block">
-          <source media="(min-width: 768px)" srcSet="/alpha-facility-desktop.jpg" />
+          <source media="(min-width: 768px)" srcSet="/Facility/alpha-facility-desktop.jpg" />
           <img
-            src="/alpha-facility-mobile.jpg"
+            src="/Facility/alpha-facility-mobile.jpg"
             alt="Alpha Healthcare Solutions Headquarters - Thana, Kannur"
             className="w-full h-full object-cover object-center filter brightness-[0.92] transition-all duration-700"
           />
@@ -33,7 +33,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
           </h1>
 
           <p className="text-sm sm:text-base lg:text-lg text-slate-200 font-medium max-w-2xl leading-relaxed drop-shadow-xs">
-            Alpha healthcare solutions is global healthcare trading and consultancy company committed to advancing medical standards through innovation, precision, and integrity.
+            Connecting trusted medical technology, expertise, and innovation with healthcare providers worldwide. <span className="text-brand-blue-400 font-semibold">Quality. Precision. Integrity.</span> — Advancing Healthcare, Empowering Better Care, Building a Healthier World.
           </p>
         </div>
       </div>

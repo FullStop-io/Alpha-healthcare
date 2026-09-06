@@ -17,10 +17,6 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
 
         {/* Section Heading */}
         <div className="mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-blue-50 border border-brand-blue-200/60 text-brand-blue-700 text-xs font-bold tracking-wider uppercase mb-3">
-            <span className="w-2 h-2 rounded-full bg-brand-blue-600 animate-pulse" />
-            Operational Excellence &amp; Healthcare Consultancy
-          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy-950 tracking-tight leading-[1.15]">
             About <span className="text-brand-blue-600">Alpha Healthcare Solutions</span>
           </h2>
@@ -88,7 +84,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
             {/* About Us Signage Image */}
             <div className="rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 h-[420px] sm:h-[480px]">
               <img
-                src="/about-us-signage.jpg"
+                src="/Facility/about-us-signage.jpg"
                 alt="Alpha Healthcare Solutions Signage"
                 className="w-full h-full object-cover object-center"
               />

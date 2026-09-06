@@ -39,14 +39,17 @@ export const Navbar: React.FC<NavbarProps> = ({
             e.preventDefault();
             handleNavClick('home');
           }}
-          className="flex items-center group cursor-pointer focus:outline-none flex-shrink-0"
+          className="flex flex-col items-start group cursor-pointer focus:outline-none flex-shrink-0"
         >
           <img
-            src="/alpha-logo.png"
+            src="/Brand/alpha-logo.png"
             alt="Alpha Healthcare Solutions"
-            className="h-14 sm:h-16 md:h-18 lg:h-20 xl:h-22 w-auto object-contain transition-transform duration-200 group-hover:scale-102"
+            className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.01]"
             loading="eager"
           />
+          <span className="text-[10px] sm:text-[11px] font-bold tracking-widest text-brand-blue-600 uppercase mt-0.5 font-sans">
+            Reliable Partner in Healthcare
+          </span>
         </a>
 
         {/* Text-Only Desktop Navigation Links Aligned on the Right */}
